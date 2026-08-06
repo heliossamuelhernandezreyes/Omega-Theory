@@ -45,13 +45,13 @@ def run_checks() -> list[Check]:
         checks.append(Check("linear energy-frequency additivity", linear < 1e-12, linear, "<1e-12", p.name))
         checks.append(Check("nonlinear candidates separated", alternatives > 1e-6, alternatives, ">1e-6", p.name))
 
-    p = root / "delivery_18__test_04_monotonia.csv"
+    p = root / "delivery_18__monotonicity_summary.csv"
     if p.exists():
-        d = pd.read_csv(p)
-        global_decreases = int(d["global_hidden_count_decreases"].sum())
-        local_fraction = float((d["current_macro_entropy_decreases"] > 0).mean())
+        d = pd.read_csv(p).iloc[0]
+        global_decreases = int(d["total_global_hidden_count_decreases"])
+        local_trials = int(d["trials_with_local_macro_entropy_decrease"])
         checks.append(Check("global history count monotonicity", global_decreases == 0, global_decreases, "0", p.name))
-        checks.append(Check("local macro entropy can decrease", local_fraction > 0, local_fraction, ">0", p.name))
+        checks.append(Check("local macro entropy can decrease", local_trials > 0, local_trials, ">0", p.name))
 
     return checks
 
