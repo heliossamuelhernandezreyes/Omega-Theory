@@ -1,0 +1,13 @@
+{
+  "package": "OMEGA_THEORY_CANON_MAESTRO_V1_2_2026-08-06",
+  "created_utc": "2026-08-06T14:38:03.121624+00:00",
+  "author_program": "Helios Samuel Hernández Reyes",
+  "source_packages": 22,
+  "source_files_extracted": 1282,
+  "markdown_files": 402,
+  "equation_occurrences": 19262,
+  "unique_equations_textual": 5556,
+  "csv_datasets": 667,
+  "unsafe_zip_members_skipped": [],
+  "canonical_status": "master consolidation before Delivery 22"
+}
