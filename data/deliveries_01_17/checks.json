@@ -1,0 +1,18 @@
+[
+  {"name":"D01 zero bridge disconnects continuity","passed":true,"value":2,"criterion":">1 components","delivery":1},
+  {"name":"D02 relabel invariance","passed":true,"value":1.7763568394002505e-15,"criterion":"<1e-12","delivery":2},
+  {"name":"D03 survival law","passed":true,"value":6.0285110237146e-14,"criterion":"<1e-10","delivery":3},
+  {"name":"D04 memory monotonic","passed":true,"value":12,"criterion":"12/12","delivery":4},
+  {"name":"D05 invariant drift","passed":true,"value":3.3345548544616577e-12,"criterion":"<1e-5","delivery":5},
+  {"name":"D05 speed bound","passed":true,"value":0.9886520718165688,"criterion":"<=1","delivery":5},
+  {"name":"D06 flux conservation","passed":true,"value":1.83440323635802e-06,"criterion":"<1e-2","delivery":6},
+  {"name":"D10 gauge invariance","passed":true,"value":4.440892098500626e-15,"criterion":"<1e-12","delivery":10},
+  {"name":"D11 common scaling invariance","passed":true,"value":0.0,"criterion":"<1e-12","delivery":11},
+  {"name":"D12 common measure scaling","passed":true,"value":9.992007221626409e-16,"criterion":"<1e-12","delivery":12},
+  {"name":"D13 exponential composition","passed":true,"value":1.7763568394002505e-15,"criterion":"<1e-10","delivery":13},
+  {"name":"D14 factorization","passed":true,"value":2.273736754432321e-13,"criterion":"<1e-12","delivery":14},
+  {"name":"D15 no exact lifted returns","passed":true,"value":0,"criterion":"=0","delivery":15},
+  {"name":"D16 DAG transitivity","passed":true,"value":0,"criterion":"=0","delivery":16},
+  {"name":"D16 DAG antisymmetry","passed":true,"value":0,"criterion":"=0","delivery":16},
+  {"name":"D17 no exact state recurrence","passed":true,"value":0,"criterion":"=0","delivery":17}
+]
