@@ -33,12 +33,12 @@ if p.exists():
     plt.savefig(FIG / "core_energy_frequency_additivity.png", dpi=180)
     plt.close()
 
-p = DATA / "delivery_18__test_04_monotonia.csv"
+p = DATA / "delivery_18__monotonicity_summary.csv"
 if p.exists():
-    d = pd.read_csv(p)
+    d = pd.read_csv(p).iloc[0]
     values = [
-        (d.global_hidden_count_decreases > 0).mean() * 100,
-        (d.current_macro_entropy_decreases > 0).mean() * 100,
+        100 * d.trials_with_global_decrease / d.trials,
+        100 * d.trials_with_local_macro_entropy_decrease / d.trials,
     ]
     plt.figure(figsize=(7, 5))
     plt.bar(["Conteo global", "Entropía macro actual"], values)
