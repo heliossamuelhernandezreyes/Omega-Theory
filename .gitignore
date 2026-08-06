@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+
+# Notebooks and local tooling
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Generated numerical outputs
+build/
+dist/
+outputs/
+generated/
+*.tmp
+
+# Frozen archives and duplicated source packages
+*.zip
+archive/full-sources/
+archive/original-packages/
+
+# Large local datasets
+*.npy
+*.npz
+*.h5
+*.hdf5
