@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="500" viewBox="0 0 820 500" role="img" aria-labelledby="title desc">
+  <title id="title">Producción media de entropía por longitud de camino</title>
+  <desc id="desc">La producción media del modelo de balance detallado permanece cerca de cero. En el anillo impulsado crece aproximadamente de 0.63 a 62.68 al aumentar la longitud de uno a cien pasos.</desc>
+  <rect width="820" height="500" fill="white"/>
+  <text x="410" y="32" text-anchor="middle" font-family="sans-serif" font-size="21">Producción media de entropía por longitud</text>
+  <line x1="80" y1="420" x2="770" y2="420" stroke="black"/><line x1="80" y1="65" x2="80" y2="420" stroke="black"/>
+  <g font-family="sans-serif" font-size="12" fill="black">
+    <text x="65" y="424" text-anchor="end">0</text><text x="65" y="314" text-anchor="end">20</text><text x="65" y="204" text-anchor="end">40</text><text x="65" y="94" text-anchor="end">60</text>
+    <text x="110" y="445" text-anchor="middle">1</text><text x="200" y="445" text-anchor="middle">2</text><text x="290" y="445" text-anchor="middle">5</text><text x="380" y="445" text-anchor="middle">10</text><text x="470" y="445" text-anchor="middle">20</text><text x="610" y="445" text-anchor="middle">50</text><text x="740" y="445" text-anchor="middle">100</text>
+    <text x="420" y="478" text-anchor="middle">Longitud del camino</text>
+  </g>
+  <polyline points="110,416.5 200,413.2 290,402.8 380,385.6 470,351.4 610,247.8 740,75.3" fill="none" stroke="#4f46e5" stroke-width="4"/>
+  <polyline points="110,420 200,420 290,420 380,420 470,420 610,420 740,420" fill="none" stroke="#555" stroke-width="2" stroke-dasharray="7 5"/>
+  <g fill="#4f46e5"><circle cx="110" cy="416.5" r="5"/><circle cx="200" cy="413.2" r="5"/><circle cx="290" cy="402.8" r="5"/><circle cx="380" cy="385.6" r="5"/><circle cx="470" cy="351.4" r="5"/><circle cx="610" cy="247.8" r="5"/><circle cx="740" cy="75.3" r="5"/></g>
+  <rect x="565" y="105" width="190" height="58" fill="white" stroke="#bbb"/><line x1="580" y1="124" x2="620" y2="124" stroke="#4f46e5" stroke-width="4"/><text x="630" y="129" font-family="sans-serif" font-size="13">Anillo impulsado</text><line x1="580" y1="146" x2="620" y2="146" stroke="#555" stroke-width="2" stroke-dasharray="7 5"/><text x="630" y="151" font-family="sans-serif" font-size="13">Balance detallado</text>
+  <text x="410" y="494" text-anchor="middle" font-family="sans-serif" font-size="11">Fuente: Entrega 19; 15,000 trayectorias por longitud y modelo</text>
+</svg>
