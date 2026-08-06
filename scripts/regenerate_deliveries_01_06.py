@@ -50,7 +50,7 @@ def d03(out):
     rows=[]
     for name,a,e in cases: rows.append([name,a,e,a,a+e,4*a,e,1/e,a/e])
     pd.DataFrame(rows,columns=['case','a','epsilon','theta_internal','theta_all','theta_mobility','theta_escape','lifetime','ratio']).to_csv(out/'d03_clocks.csv',index=False)
-    t=np.linspace(0,50,1001); a=1.; e=.1; empirical=np.exp(-e*t); exact=np.exp(-e*t)
+    t=np.linspace(0,50,1001); e=.1; empirical=np.exp(-e*t); exact=np.exp(-e*t)
     pd.DataFrame({'t':t,'survival_numeric':empirical,'survival_exact':exact,'abs_error':abs(empirical-exact)}).to_csv(out/'d03_survival.csv',index=False)
 
 def d04(out):
@@ -65,14 +65,14 @@ def d04(out):
     pd.DataFrame(rows,columns=['erasure_rate','final_memory','monotonic_non_decreasing']).to_csv(out/'d04_memory.csv',index=False)
 
 def d05(out):
-    c=mu=1.; soft=.5
+    mu=1.; soft=.5
     def dln(r): return mu*r/(r*r+soft*soft)**1.5
     def acc(r,v): return -(1-v*v)*dln(r)
     def rhs(t,y): return [y[1],acc(y[0],y[1])]
     rows=[]
     for r0,v0 in [(8,0),(8,-.2),(4,.1),(20,-.4)]:
         s=solve_ivp(rhs,(0,12),[r0,v0],rtol=1e-10,atol=1e-12,max_step=.01)
-        inv=np.log(np.sqrt(1-s.y[1]**2))+(-mu/np.sqrt(s.y[0]**2+soft**2))
+        inv=np.exp(-mu/np.sqrt(s.y[0]**2+soft**2))/np.sqrt(1-s.y[1]**2)
         rows.append([r0,v0,inv[0],inv[-1],np.max(abs((inv-inv[0])/inv[0])),np.max(abs(s.y[1])),s.y[0,-1],s.y[1,-1]])
     pd.DataFrame(rows,columns=['r0','v0','initial_invariant','final_invariant','max_relative_drift','max_abs_speed','final_r','final_v']).to_csv(out/'d05_trajectories.csv',index=False)
     r=np.geomspace(10,100,200); aa=abs(np.array([acc(x,0) for x in r])); fit=linregress(np.log10(r),np.log10(aa)); pd.DataFrame([[fit.slope,10**fit.intercept,fit.rvalue**2]],columns=['power_exponent','prefactor','R2']).to_csv(out/'d05_radial_fit.csv',index=False)
