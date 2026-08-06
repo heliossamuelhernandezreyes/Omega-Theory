@@ -1,0 +1,7 @@
+erase_probability,mean_exact_recurrences,fraction_trials_with_recurrence,max_exact_recurrences
+0.0,0.0,0.0,0
+0.0001,0.0,0.0,0
+0.001,0.002,0.002,1
+0.01,0.016,0.016,1
+0.1,1.994,0.854,7
+0.5,49.814,1.0,72
