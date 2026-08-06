@@ -1,0 +1,2 @@
+trials,total_global_hidden_count_decreases,trials_with_global_decrease,trials_with_local_macro_entropy_decrease,mean_local_macro_entropy_decreases,min_local_macro_entropy_decreases,max_local_macro_entropy_decreases
+200,0,0,200,51.91,40,63
