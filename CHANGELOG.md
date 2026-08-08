@@ -2,7 +2,14 @@
 
 ## [Unreleased]
 
-No contiene desarrollo científico nuevo.
+### Corregido operativamente
+
+- La instalación documentada registra ahora el paquete `omega_repro`.
+- El verificador distingue archivos científicos no manifestados de artefactos locales descartables.
+- La comprobación pública se ejecuta automáticamente en GitHub Actions.
+- Licencia y cita reflejan la edición auditada ya publicada.
+
+No contiene desarrollo científico nuevo ni modifica resultados del Canon Maestro v1.2.
 
 ## [1.2.0-audited-repository] — 2026-08-08
 
