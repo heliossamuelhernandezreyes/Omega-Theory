@@ -67,11 +67,14 @@ Los agregados completos, 667 datasets, 123 figuras, copias históricas y materia
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -e .
 python scripts/verify_repository.py
 python -m omega_repro.validate_core
 python -m omega_repro.validate_deliveries_01_17
 ```
+
+En Windows PowerShell, active el entorno con `.venv\\Scripts\\Activate.ps1`. La instalación editable incluye las dependencias fijadas en `pyproject.toml` y hace disponible el paquete `omega_repro`.
 
 Estas comprobaciones verifican integridad y consecuencias de modelos archivados o resúmenes derivados. No validan la ontología ni el mundo físico.
 
