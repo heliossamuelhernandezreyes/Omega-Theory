@@ -4,7 +4,7 @@ Copyright © 2026 Helios Samuel Hernández Reyes. All rights reserved.
 
 No license is granted at this stage to copy, modify, redistribute, sublicense, or commercially use the documentation, datasets, figures, simulations, or source code in this repository, except where required by applicable law or with prior written permission from the copyright holder.
 
-This temporary rights statement is intentional. Before a public release, the author should choose explicit licenses separately for:
+This rights statement is intentional for the current public repository. The author may later choose explicit licenses separately for:
 
 - research documentation and figures;
 - source code;
