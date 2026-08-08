@@ -28,6 +28,19 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -e .
 
+      - name: Reject unmanifested scientific outputs
+        run: |
+          . .venv/bin/activate
+          mkdir -p generated outputs
+          printf 'unmanifested test artifact\n' > generated/unmanifested-test.txt
+          printf 'unmanifested test artifact\n' > outputs/unmanifested-test.txt
+          if python scripts/verify_repository.py; then
+            echo "Verifier accepted unmanifested files in generated/ or outputs/."
+            exit 1
+          fi
+          rm generated/unmanifested-test.txt outputs/unmanifested-test.txt
+          rmdir generated outputs
+
       - name: Verify integrity and archived checks
         run: |
           . .venv/bin/activate

@@ -21,8 +21,6 @@ IGNORED_LOCAL_DIRECTORIES = {
     "__pycache__",
     "build",
     "dist",
-    "generated",
-    "outputs",
     "venv",
 }
 
