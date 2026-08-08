@@ -1,0 +1,48 @@
+{
+  "claim_candidates_classified": 32628,
+  "claim_blocks_by_epistemic_state": {
+    "SIN_MARCA_EPISTEMICA_EXPLICITA": 31803,
+    "DUDA_O_PENDIENTE_DECLARADA": 181,
+    "RESULTADO_NEGATIVO_O_LIMITACION_DECLARADA": 144,
+    "NO_DERIVADA_NO_CONFIRMADA_O_ABIERTA_DECLARADA": 133,
+    "ESTADO_NARRATIVO_MIXTO_O_NO_REDUCIBLE": 129,
+    "HIPOTESIS_O_CANDIDATA_DECLARADA": 84,
+    "CANONICA_DECLARADA_SIN_GRADO_DE_PRUEBA_UNIFORME": 69,
+    "DERIVADA_DEMOSTRADA_O_CONFIRMADA_DECLARADA": 32,
+    "DERIVADA_DEMOSTRADA_O_EXACTA_DECLARADA": 26,
+    "RESULTADO_NUMERICO_DECLARADO": 11,
+    "CANONICA_AXIOMATICA_O_DEFINICIONAL_DECLARADA": 7,
+    "REFUTADA_RECHAZADA_O_SUPERADA_DECLARADA": 5,
+    "DERIVADA_EN_MODELO_DECLARADA": 2,
+    "APOYADA_ESTRUCTURALMENTE_DECLARADA": 1,
+    "VERIFICADA_O_APOYADA_NUMERICAMENTE_DECLARADA": 1
+  },
+  "claim_blocks_by_evidence_layer": {
+    "COPIA_EN_ARCHIVO_EMBEBIDO": 13130,
+    "FUENTE_PRIMARIA_DEL_PAQUETE": 10957,
+    "AGREGADO_DERIVADO_CORPUS": 6642,
+    "AUDITORIA_SECUNDARIA": 950,
+    "DOCUMENTO_DEL_PAQUETE": 638,
+    "AGREGADO_DERIVADO_CATALOGO": 216,
+    "NUCLEO_CANONICO_FUENTE": 56,
+    "SINTESIS_DEL_CANON_MAESTRO": 39
+  },
+  "verdicts_normalized": 210,
+  "verdicts_by_normalized_state": {
+    "REVISADA_REEMPLAZADA_O_SUPERADA": 68,
+    "REFUTADA_O_NO_APOYADA_EN_MODELO": 58,
+    "APOYADA_VERIFICADA_O_REQUERIDA_EN_MODELO": 27,
+    "DERIVADA_O_EXACTA_EN_SU_MARCO": 15,
+    "NO_DERIVADA_O_ABIERTA": 15,
+    "CONDICIONAL": 14,
+    "LIMITADA_O_CONVENCIONAL": 9,
+    "CANDIDATO_LIMITADO": 3,
+    "APOYADA_EN_MODELO": 1
+  },
+  "core_claims_manually_normalized": 20,
+  "negative_catalog_occurrences_preserved": 143,
+  "reproduction_negative_records_preserved": 14,
+  "consolidated_negative_limit_rows": 307,
+  "open_doubt_occurrences_preserved": 81,
+  "methodological_caveat": "A canonical location is recorded as declared canon, not as uniform mathematical proof or external empirical validation. Unmarked blocks remain unmarked."
+}

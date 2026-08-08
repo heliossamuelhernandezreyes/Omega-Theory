@@ -1,0 +1,36 @@
+{
+  "claim_blocks_with_explicit_epistemic_label": 1159,
+  "claim_blocks_without_explicit_epistemic_label": 31469,
+  "claim_candidate_blocks": 32628,
+  "control_character_counts": {
+    "BACKSPACE": 1,
+    "C0_CONTROL": 5,
+    "TAB": 11
+  },
+  "datasets": 667,
+  "datasets_all_fields_match": 667,
+  "datasets_mismatch": 0,
+  "delivery_result_summaries": 21,
+  "delivery_result_summaries_match": 21,
+  "delivery_result_summaries_mismatch": 0,
+  "equation_occurrence_failure_reasons": {},
+  "equation_occurrence_failures": 0,
+  "equation_occurrence_matches": 19262,
+  "equation_occurrences": 19262,
+  "files_with_suspicious_control_characters": 5,
+  "linear_catalog_rows": {
+    "dudas_abiertas": 81,
+    "extractos_ontologicos": 2196,
+    "indice_encabezados": 15303,
+    "resultados_negativos": 143
+  },
+  "linear_catalog_trace_failures": {},
+  "markdown_blocks": 77895,
+  "suspicious_control_character_occurrences": 17,
+  "unique_equation_rows_all_fields_match": 5556,
+  "unique_equation_rows_mismatch": 0,
+  "unique_equations": 5556,
+  "verdict_source_row_matches": 210,
+  "verdict_source_row_mismatches": 0,
+  "verdicts": 210
+}

@@ -1,37 +1,26 @@
 # Changelog
 
-All notable canonical changes to Omega Theory will be recorded here.
-
 ## [Unreleased]
 
-### Planned
+No contiene desarrollo científico nuevo.
 
-- Delivery 22: ordinal or relational action, refinement invariance, and the status of the action scale.
-- Reproducibility index connecting selected numerical claims to executable scripts and datasets.
-- Explicit observational comparison layer.
+## [1.2.0-audited-repository] — 2026-08-08
 
-## [1.2.0-canon] — 2026-08-06
+### Añadido
 
-### Added
+- Capa de auditoría con cobertura 1,508/1,508.
+- Matrices de trazabilidad y estado epistemológico para 20 afirmaciones nucleares.
+- 210 veredictos, 307 negativos/límites y 81 dudas abiertas.
+- 28 hashes únicos de código original con estado de reproducción.
+- Fuentes, datasets y figuras primarias seleccionadas por trazabilidad.
+- Manifiestos de incorporación, archivo, exclusión y reconstrucción.
 
-- Consolidated founding package and Deliveries 01–21.
-- Current ontological canon.
-- Consolidated mathematical dependency map.
-- Numerical dataset catalog and result guide.
-- Epistemic-status system.
-- Conceptual-evolution record.
-- Open research program and dependency map.
-- Provenance and package metadata.
+### Corregido documentalmente
 
-### Changed
+- Separación entre verificación de datasets, reproducción de código y validación física.
+- Etiquetado de herramientas, resúmenes y figuras creados por el repositorio como derivados.
+- Retiro del regenerador moderno 01–06 del árbol científico activo; permanece en la historia Git.
 
-- Replaced the provisional fundamental genealogical coordinate with strict inclusion of causal history as the current formulation.
-- Separated ontological irreversibility from thermodynamic irreversibility.
-- Separated path surprisal, obstruction charge, and physical energy.
+### No modificado
 
-### Not derived
-
-- A complete physical gauge sector.
-- Universal equivalence principle.
-- Absolute energy or temperature scale.
-- Identification of the action scale with Planck's reduced constant.
+- Ontología, afirmaciones científicas, ecuaciones fuente, resultados y negativos del Canon Maestro v1.2.

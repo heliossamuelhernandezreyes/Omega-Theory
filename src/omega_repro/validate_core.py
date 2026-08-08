@@ -13,15 +13,15 @@ class Check:
     source: str
 
 
-def _data_root() -> Path:
-    return Path(__file__).resolve().parents[2] / "data" / "selected"
+def _repo_root() -> Path:
+    return Path(__file__).resolve().parents[2]
 
 
 def run_checks() -> list[Check]:
-    root = _data_root()
+    root = _repo_root()
     checks: list[Check] = []
 
-    p = root / "delivery_19__test_04_produccion_entropia.csv"
+    p = root / "data" / "primary" / "delivery_19" / "TEST_04_PRODUCCION_ENTROPIA.csv"
     if p.exists():
         d = pd.read_csv(p)
         eq = d[d["model"] == "detailed_balance"]["mean_entropy_production"].abs().max()
@@ -29,7 +29,7 @@ def run_checks() -> list[Check]:
         checks.append(Check("detailed balance mean entropy production", bool(eq < 1e-12), float(eq), "<1e-12", p.name))
         checks.append(Check("driven mean entropy production", bool(driven > 0), float(driven), ">0", p.name))
 
-    p = root / "delivery_20__test_02_identidades_canonicas.csv"
+    p = root / "data" / "primary" / "delivery_20" / "TEST_02_IDENTIDADES_CANONICAS.csv"
     if p.exists():
         d = pd.read_csv(p)
         e1 = float(d["identity1_error"].max())
@@ -37,7 +37,7 @@ def run_checks() -> list[Check]:
         checks.append(Check("canonical identity dlogZ", e1 < 1e-7, e1, "<1e-7", p.name))
         checks.append(Check("canonical identity dU", e2 < 1e-7, e2, "<1e-7", p.name))
 
-    p = root / "delivery_21__test_02_aditividad_energia_frecuencia.csv"
+    p = root / "data" / "primary" / "delivery_21" / "TEST_02_ADITIVIDAD_ENERGIA_FRECUENCIA.csv"
     if p.exists():
         d = pd.read_csv(p).set_index("candidate")
         linear = float(d.loc["linear", "mean_additivity_error"])
@@ -45,7 +45,7 @@ def run_checks() -> list[Check]:
         checks.append(Check("linear energy-frequency additivity", linear < 1e-12, linear, "<1e-12", p.name))
         checks.append(Check("nonlinear candidates separated", alternatives > 1e-6, alternatives, ">1e-6", p.name))
 
-    p = root / "delivery_18__monotonicity_summary.csv"
+    p = root / "data" / "derived" / "delivery_18__monotonicity_summary.csv"
     if p.exists():
         d = pd.read_csv(p).iloc[0]
         global_decreases = int(d["total_global_hidden_count_decreases"])

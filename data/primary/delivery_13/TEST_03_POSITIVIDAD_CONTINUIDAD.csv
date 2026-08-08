@@ -1,0 +1,7 @@
+candidate,minimum_value,maximum_value,all_positive,finite_everywhere
+exponential,0.006737946999085467,148.4131591025766,True,True
+linear,-4.0,6.0,False,True
+rational,-200.00000000000426,inf,False,False
+gaussian,1.3887943864964021e-11,1.0,True,True
+absolute_exponential,0.006737946999085467,1.0,True,True
+piecewise_exponential,0.006737946999085467,22026.465794806718,True,True

@@ -1,34 +1,37 @@
-# Reproducibility policy
+# Reproducibilidad
 
-## Scope
+## Cuatro niveles distintos
 
-The Canon Master v1.2 contains hundreds of datasets and scripts accumulated across the founding corpus and Deliveries 01–21. The live repository will not treat every generated output as source material.
+1. **Integridad:** SHA-256 y tamaño prueban identidad de bytes.
+2. **Verificación archivada:** se recalculan estructura, columnas, resúmenes o criterios sobre un dataset existente.
+3. **Reproducción de código:** se ejecuta el productor o demostrador disponible bajo un entorno registrado.
+4. **Validación física externa:** comparación independiente con observables; no fue demostrada por esta auditoría.
 
-## Required reproducibility record
+No se sustituyen entre sí.
 
-For each promoted numerical result, the repository should provide:
+## Resultado auditado
 
-1. the canonical claim being tested;
-2. the exact script or notebook entry point;
-3. dependency versions;
-4. parameters and random seed;
-5. expected output columns and tolerances;
-6. the corresponding negative or limiting result;
-7. a statement separating implementation verification from physical validation.
+- 667/667 datasets fueron reabiertos y sus estadísticas catalogadas se recalcularon.
+- La mayoría no tiene un productor ejecutable único; esa comprobación no es regeneración desde cero.
+- 28 hashes únicos de Python fueron ejecutados o clasificados: 22 éxitos, 3 fallos, 2 sin lógica y 1 guarda de interfaz esperada.
+- Tres ejecuciones necesitaron redirección temporal de `/mnt/data`.
+- Los controles sustitutivos de dependencias no equivalen a una reproducción con las dependencias declaradas.
 
-## Data policy
+Consulte [`validations/`](../validations/), [`negative-results/REPRODUCTION_NEGATIVES.csv`](../negative-results/REPRODUCTION_NEGATIVES.csv) y [`code/README.md`](../code/README.md).
 
-- Small reference datasets may be versioned directly.
-- Large generated datasets should be regenerated from code when practical.
-- Frozen complete archives belong in versioned releases, not repeated Git history.
-- Hashes and package metadata remain in `manifests/`.
+## Entorno de la auditoría
 
-## Baseline environment
+El entorno exacto observado está en [`validations/AUDIT_ENVIRONMENT.json`](../validations/AUDIT_ENVIRONMENT.json). `requirements.txt` fija las dependencias de la capa activa del repositorio, no reconstruye dependencias ausentes de todos los scripts históricos.
+
+## Ejecución
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+source .venv/bin/activate
 pip install -r requirements.txt
+python scripts/verify_repository.py
+python -m omega_repro.validate_core
+python -m omega_repro.validate_deliveries_01_17
 ```
 
-The current `requirements.txt` records package families found across the source corpus. Exact version pinning will be added after representative scripts are selected and rerun in a clean environment.
+La capa `omega_repro` es una herramienta derivada del repositorio. Sus resultados verifican valores archivados y resúmenes seleccionados; no son fuentes científicas primarias.

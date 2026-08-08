@@ -4,10 +4,16 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "omega-repro"
-version = "0.1.0"
-description = "Curated reproducibility checks for Omega Theory"
-requires-python = ">=3.10"
-dependencies = ["numpy", "pandas", "matplotlib", "scipy", "sympy", "networkx"]
+version = "1.2.0"
+description = "Repository-derived integrity and archived-result checks for Omega Theory Canon Master v1.2"
+requires-python = ">=3.12"
+dependencies = [
+  "numpy==2.3.5",
+  "pandas==2.2.3",
+  "scipy==1.17.0",
+  "matplotlib==3.10.8",
+  "Pillow==12.2.0",
+]
 
 [project.optional-dependencies]
 test = ["pytest"]

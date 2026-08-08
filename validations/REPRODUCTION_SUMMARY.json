@@ -1,0 +1,22 @@
+{
+  "physical_python_files": 35,
+  "embedded_python_files": 5,
+  "python_files_total": 40,
+  "unique_python_hashes": 28,
+  "executions_by_status": {
+    "executed_successfully": 22,
+    "execution_failed": 3,
+    "no_executable_logic": 2,
+    "expected_interface_guard": 1
+  },
+  "timeouts": 0,
+  "adapted_executions": 3,
+  "comparison_rows": 21,
+  "comparisons_by_status": {
+    "comparable_raw_vs_corrected": 1,
+    "generated_without_packaged_reference": 1,
+    "exact": 11,
+    "not_generated": 8
+  },
+  "random_or_seed_note": "Static phase-1 scan found no random references in any Python file."
+}

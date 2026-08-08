@@ -1,0 +1,11 @@
+{
+  "archive_members_not_in_inventory": 0,
+  "declared_inventory_members": 1282,
+  "inventory_members_not_in_archive": 0,
+  "mismatches": 0,
+  "observed_archive_members": 1282,
+  "packages_with_bad_crc": 0,
+  "reconciliation_rows": 1282,
+  "source_packages": 22,
+  "three_way_matches": 1282
+}

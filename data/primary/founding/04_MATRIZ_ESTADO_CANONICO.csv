@@ -1,0 +1,22 @@
+area,objeto,formulacion_actual,estado,fuentes_clave
+Ontología,Potencialidad,"Estructura de continuaciones/transiciones compatibles, no un escalar absoluto.",Fuerte conceptualmente; falta medida microscópica única.,"v27–30, v61, v72"
+Ontología,Naturaleza,Clase de configuraciones mutuamente transformables/reversibles.,Uno de los conceptos más sólidos.,v72
+Ontología,Identidad,Genealogía realizada dentro de una naturaleza; puede ser jerárquica.,Muy fuerte conceptualmente; modelos físicos aún de juguete.,v72–74
+Ontología,Inercia,Soporte/costo mínimo de reorganización compatible; no función de p.,Fuerte como distinción; escala física no derivada.,"v61, v74"
+Ontología,Tiempo,Orden/profundidad acumulada de actualización o cambio relacional.,"Coherente, pero no único ni conectado plenamente a relatividad.",docs47–49
+Materia,Masa,Brecha producida por mezcla interna y/o bloqueo de actualización.,Mecanismo candidato; valor y espectro de masas no derivados.,"v62–66, v82–83"
+Materia,Conjugación,Antiunitaria interna con E→−E y C²=−I.,Demostrada en representación elegida.,v85
+Materia,Antimateria,Ausencia/excitación conjugada respecto del vacío.,Coherente en modelo finito; no QFT completa.,v86–87
+Estadística,Exclusión,Antisimetría local eta=−1 implica nilpotencia.,Demostrada algebraicamente.,v80
+Estadística,Espín–estadística,Vínculo entre cierre interno y eta.,No derivado; varios intentos fallan.,v78–81
+Geometría,Dimensión 3,Selección de tres direcciones físicas.,No derivada; múltiples mecanismos refutados.,"docs31–44, v83"
+Geometría,Clifford,Anticomutación exigida por isotropía dentro de H lineal.,Resultado matemático fuerte pero condicionado al ansatz.,v83
+Interacción,Conexión U(1)-like,Comparador local de fase exigido por covariancia relacional.,Derivación fuerte en red abeliana.,v88
+Interacción,Energía de curvatura,1−cosF como ley compacta; F²/2 como límite débil.,Coherente si la conexión es compacta.,v89
+Interacción,Sector tipo Maxwell,"Gauss, d−1 modos, 1/r y 1/r² en red 3D.",Resultado efectivo prometedor; no EM completo.,v90
+Gravedad,Gravedad moderna,Geometría/curvatura derivada desde potencialidad.,Mucho menos madura que el sector abeliano; no hay ecuación moderna cerrada.,"docs1–10, 45–46"
+Termodinámica,Temperatura microcanónica,beta=dS/dE localmente.,Correcta en modelos ensayados; S(E) no derivada.,doc50
+Agujeros negros,Ley de área,S proporcional a A y coeficiente Hawking.,No demostrados; contraejemplos volumétricos.,docs51–58
+Fenomenología,Decaimiento alfa,Z_d/sqrt(Q) derivado relacionalmente; LOOCV≈0.677 en mejor modelo.,"Mejor validación cuantitativa, pero calibrada y no predictiva fuera de muestra.",v67–71
+Fundamentos,Continuo/Lorentz,Recuperación exacta de simetría relativista.,No demostrada; sólo límites de baja energía.,"v82, v88–90"
+Fundamentos,QFT/renormalización,Campo cuántico infinito y vacío renormalizado.,No disponible.,v86–90

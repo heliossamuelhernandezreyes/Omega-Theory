@@ -1,0 +1,47 @@
+{
+  "coverage_rows_total": 1508,
+  "physical_outer_members": 1327,
+  "embedded_logical_members": 181,
+  "applicable_checks_complete": 1508,
+  "applicable_checks_incomplete": 0,
+  "coverage_states": {
+    "COVERED": 1360,
+    "COVERED_WITH_NEGATIVE_OR_LIMITATION": 148
+  },
+  "physical_extensions": {
+    ".csv": 679,
+    ".jpg": 1,
+    ".json": 52,
+    ".md": 412,
+    ".png": 122,
+    ".py": 35,
+    ".yaml": 2,
+    ".zip": 24
+  },
+  "embedded_extensions": {
+    ".csv": 111,
+    ".json": 1,
+    ".md": 62,
+    ".py": 5,
+    ".yaml": 2
+  },
+  "source_members_three_way_reconciled": 1282,
+  "nested_zips_tested_clean": 24,
+  "figures_visual_reviewed": 123,
+  "datasets_recomputed_exact": 667,
+  "equation_occurrences_verified": 19262,
+  "unique_equation_rows_verified": 5556,
+  "claim_candidates_classified": 32628,
+  "verdicts_normalized": 210,
+  "python_files_covered": 40,
+  "unique_python_hashes_classified": 28,
+  "coverage_scope_limits": [
+    "Coverage proves processing and applicable audit checks, not physical truth.",
+    "Most datasets lack a unique executable producer and were verified structurally/statistically rather than regenerated.",
+    "The SymPy verifier was not reproduced with SymPy; only a numeric dual-number surrogate was run after preserving the dependency failure.",
+    "One charged BVP requires a complete background not supplied for end-to-end execution.",
+    "31803 claim candidates lack an explicit local epistemic mark under the conservative classifier.",
+    "Mathematical truth of all 5556 unique equations and external empirical validation are outside the demonstrated checks."
+  ],
+  "missing_applicable_checks": []
+}
