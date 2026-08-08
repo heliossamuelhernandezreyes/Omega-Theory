@@ -10,6 +10,38 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
+IGNORED_LOCAL_DIRECTORIES = {
+    ".git",
+    ".idea",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".venv",
+    ".vscode",
+    "__pycache__",
+    "build",
+    "dist",
+    "generated",
+    "outputs",
+    "venv",
+}
+
+
+def _is_ignored_local_artifact(path: Path) -> bool:
+    """Return whether *path* is a disposable local-development artifact."""
+    relative = path.relative_to(ROOT)
+    if any(
+        part in IGNORED_LOCAL_DIRECTORIES or part.endswith(".egg-info")
+        for part in relative.parts
+    ):
+        return True
+    name = relative.name
+    return (
+        name == ".env"
+        or name.startswith(".env.")
+        or name.endswith((".pyc", ".pyo", ".tmp"))
+    )
+
 
 def _rows(path: str) -> list[dict[str, str]]:
     with (ROOT / path).open(encoding="utf-8-sig", newline="") as handle:
@@ -44,7 +76,7 @@ def verify_manifest() -> tuple[int, list[dict[str, str]]]:
     actual = {
         str(path.relative_to(ROOT))
         for path in ROOT.rglob("*")
-        if path.is_file() and "__pycache__" not in path.parts
+        if path.is_file() and not _is_ignored_local_artifact(path)
     }
     for path in sorted(actual - known):
         failures.append({"path": path, "error": "unmanifested"})
