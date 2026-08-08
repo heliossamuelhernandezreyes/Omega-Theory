@@ -28,10 +28,13 @@ El entorno exacto observado está en [`validations/AUDIT_ENVIRONMENT.json`](../v
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -e .
 python scripts/verify_repository.py
 python -m omega_repro.validate_core
 python -m omega_repro.validate_deliveries_01_17
 ```
+
+En Windows PowerShell, la activación equivalente es `.venv\\Scripts\\Activate.ps1`. La instalación editable instala las dependencias fijadas y registra el paquete `omega_repro`. El verificador excluye únicamente artefactos locales declarados —como `.git/`, `.venv/`, cachés y `*.egg-info/`—; cualquier archivo científico no manifestado continúa siendo un error.
 
 La capa `omega_repro` es una herramienta derivada del repositorio. Sus resultados verifican valores archivados y resúmenes seleccionados; no son fuentes científicas primarias.
