@@ -6,10 +6,9 @@ canonical_verdicts,210,incorporated,results/VEREDICTOS_NORMALIZADOS.csv,Complete
 negative_and_limit_rows,307,incorporated,negative-results/NEGATIVOS_Y_LIMITES.csv,Complete consolidated negative and limitation register.
 open_question_occurrences,81,incorporated,open-questions/DUDAS_ABIERTAS.csv,Complete open-question register.
 source_files_not_selected,1251,archive_only,Canon Master ZIP,"Preserved but omitted from live tree for scope, volume, or redundancy."
-datasets_not_selected,656,archive_only,Canon Master ZIP,Preserved; not required by published active traces.
+datasets_not_selected,655,archive_only,Canon Master ZIP,Preserved; not required by published active traces.
 figures_not_selected,116,archive_only,Canon Master ZIP,Preserved; seven representative reviewed figures are active.
 duplicate_python_occurrences,12,excluded_as_duplicate,Canon Master ZIP; validations/CODE_COVERAGE.csv,"Identical hashes are mapped, not duplicated as independent evidence."
 equations_only_in_aggregates,34,not_promoted,audit/traceability/ecuaciones_solo_en_agregados.csv,No primary-source occurrence demonstrated.
 modern_regenerator_01_06_files,3,history_only,commit d620581e4a862af985c21e08c8477b3875a1cc30,Repository-derived material absent from audited Canon Master.
 full_historical_and_redundant_evidence,1,preserved_versioned,OMEGA_THEORY_PRESERVATION_V1_2_0_2026-08-08.zip,"Contains intact master, full audit evidence, and exact pre-curation repository snapshot."
-
