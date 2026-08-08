@@ -3,12 +3,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "data" / "deliveries_01_17"
+PRIMARY = ROOT / "data" / "primary"
+DERIVED = ROOT / "data" / "derived" / "deliveries_01_17"
 FIG = ROOT / "figures" / "deliveries_01_17"
 FIG.mkdir(parents=True, exist_ok=True)
 
 # Delivery 01: bridge rate and spectral gap.
-d = pd.read_csv(DATA / "d01_continuity_break.csv")
+d = pd.read_csv(PRIMARY / "delivery_01" / "TEST_03_RUPTURA_CONTINUIDAD.csv")
 pos = d[d.epsilon_bridge_rate > 0]
 plt.figure(figsize=(7.5, 4.8))
 plt.loglog(pos.epsilon_bridge_rate, pos.spectral_gap, marker="o")
@@ -20,7 +21,7 @@ plt.savefig(FIG / "d01_gap_vs_bridge.svg")
 plt.close()
 
 # Delivery 13: convergence of finite partitions toward exponential response.
-d = pd.read_csv(DATA / "d13_partition_limit_summary.csv")
+d = pd.read_csv(DERIVED / "d13_partition_limit_summary.csv")
 plt.figure(figsize=(7.5, 4.8))
 for s, g in d.groupby("s"):
     plt.plot(g.n, g.relative_error, marker="o", label=f"s={s}")
@@ -35,7 +36,7 @@ plt.savefig(FIG / "d13_partition_convergence.svg")
 plt.close()
 
 # Delivery 16: cycle insertion destroys topological ordering in tested graphs.
-d = pd.read_csv(DATA / "d16_cycle_order_summary.csv")
+d = pd.read_csv(DERIVED / "d16_cycle_order_summary.csv")
 plt.figure(figsize=(7.5, 4.8))
 plt.plot(d.n, d.cyclic_fraction, marker="o", label="Cyclic fraction")
 plt.plot(d.n, d.topological_order_fraction, marker="o", label="Topological-order fraction")
@@ -48,7 +49,7 @@ plt.savefig(FIG / "d16_cycles_vs_order.svg")
 plt.close()
 
 # Delivery 17: allowing erasure restores exact recurrence.
-d = pd.read_csv(DATA / "d17_history_erasure.csv")
+d = pd.read_csv(PRIMARY / "delivery_17" / "TEST_04_BORRADO_HISTORIA.csv")
 plt.figure(figsize=(7.5, 4.8))
 plt.plot(d.erase_probability, d.fraction_trials_with_recurrence, marker="o")
 plt.xscale("symlog", linthresh=1e-4)

@@ -1,0 +1,37 @@
+{
+  "archive_version": "1.2.0",
+  "github_release_assets_attached": false,
+  "remote_reconstruction_complete": false,
+  "assets": [
+    {
+      "file": "OMEGA_THEORY_CANON_MAESTRO_V1_2_2026-08-06.zip",
+      "size_bytes": 125664771,
+      "sha256": "e7f29b4df6cac21bd76c8bb5fd0a5bcde5db049171c8cb4b480e640749754970",
+      "role": "canonical master",
+      "state": "preserved_external; github_release_attachment_pending"
+    },
+    {
+      "file": "AUDITORIA_CANON_MAESTRO_V1_2_EVIDENCIAS.zip",
+      "size_bytes": 13406684,
+      "sha256": "c39cf2284eb7ccc33cdb09e803d005a7668cfddd0224fe2028236fd554daa63d",
+      "role": "complete audit evidence",
+      "state": "preserved_external; github_release_attachment_pending"
+    },
+    {
+      "file": "Omega-Theory_repo_d620581.zip",
+      "size_bytes": 44875,
+      "sha256": "3d605d838cb0bc3af476f02f7a53fbe7e02c310ef69f0981e00723d18ab82a0c",
+      "role": "pre-curation repository snapshot",
+      "state": "inside preservation package"
+    },
+    {
+      "file": "OMEGA_THEORY_PRESERVATION_V1_2_0_2026-08-08.zip",
+      "size_bytes": 139117998,
+      "sha256": "b22a572aef007f3c22506cd114d7a771206eb85759fe178cb4151e9f4c03d6df",
+      "role": "versioned preservation backup",
+      "state": "preserved_external; github_release_attachment_pending"
+    }
+  ],
+  "note": "The Git branch is auditable without the binary assets, but complete reconstruction of all historical bytes requires an asset matching the recorded SHA-256."
+}
+

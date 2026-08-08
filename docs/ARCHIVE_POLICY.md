@@ -1,27 +1,19 @@
-# Archive and provenance policy
+# Política de archivo y procedencia
 
-The Canon Master v1.2 is a preservation archive and is intentionally more redundant than the live repository.
+## Árbol activo
 
-## Live Git history
+El Git normal contiene el canon navegable, fuentes primarias necesarias, código auditado por hash único, datasets de las trazas publicadas, resultados, validaciones, negativos, dudas y manifiestos. Un derivado del repositorio se identifica como derivado y no cuenta como evidencia independiente.
 
-The normal repository tracks:
+## Archivo congelado
 
-- current canon;
-- epistemic status;
-- selected derivations;
-- reproducible code;
-- compact reference data;
-- research roadmap;
-- provenance metadata.
+El ZIP maestro v1.2 es la autoridad de preservación para las 1,327 entradas exteriores, 1,282 fuentes declaradas, 667 datasets y 123 figuras. Se conserva intacto por SHA-256; no se extrae ni vuelve a comprimir para sustituirlo.
 
-## Frozen releases
+El paquete de evidencias contiene las fases, matrices, logs y artefactos de auditoría. El estado anterior del repositorio se preserva además en el commit `d620581e4a862af985c21e08c8477b3875a1cc30` y en un respaldo independiente.
 
-Complete source packages, historical deliveries, duplicated extracted trees, and large generated datasets should be distributed as immutable release assets. Their hashes must be recorded before publication.
+## Exclusión sin pérdida
 
-## Historical formulations
+Agregados, copias históricas, duplicados de ecuaciones, datasets no usados por las trazas activas y figuras no seleccionadas se excluyen del árbol por redundancia o volumen. Su ruta y razón se registran en `manifests/CURATION_DECISIONS.csv`; sus bytes permanecen en el ZIP maestro.
 
-A superseded or refuted formulation is not silently deleted. It is retained in release archives or a dedicated history section and marked with its status and replacement.
+## Regla de no borrado epistemológico
 
-## Canon promotion
-
-A result enters the strong canon only when its assumptions, derivation, tests, limitations, and dependency effects are documented. Numerical agreement alone is insufficient.
+Una formulación negativa, refutada, reemplazada, exploratoria o histórica no se elimina de la evidencia. Puede salir del árbol activo sólo si permanece recuperable por archivo inmutable, commit histórico y manifiesto.

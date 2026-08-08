@@ -1,0 +1,23 @@
+{
+  "actual_files_under_root": 1327,
+  "actual_not_declared": [
+    "06_INDICES_Y_MANIFIESTOS/MANIFIESTO_CANON_MAESTRO.csv"
+  ],
+  "declared_not_actual": [],
+  "inventory_all_exist": true,
+  "inventory_declared_rows": 1282,
+  "inventory_mismatches": 0,
+  "inventory_sha256_matches": 1282,
+  "inventory_size_matches": 1282,
+  "manifest_all_exist": true,
+  "manifest_declared_rows": 1326,
+  "manifest_mismatches": 0,
+  "manifest_sha256_matches": 1326,
+  "manifest_size_matches": 1326,
+  "override_local_path": "audit_workspace/evidence/GEOMETRY_OMEGA_TEORIA_COMPLETA_V1_0__recovered_exact_outer_member.zip",
+  "override_relative_path": "99_ORIGINALES_ZIP/GEOMETRY_OMEGA_TEORIA_COMPLETA_V1_0.zip",
+  "packages_declared_rows": 22,
+  "packages_mismatches": 0,
+  "packages_sha256_matches": 22,
+  "packages_size_matches": 22
+}

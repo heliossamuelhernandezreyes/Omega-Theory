@@ -1,0 +1,33 @@
+{
+  "contact_sheet_count": 11,
+  "extension_counts": {
+    ".csv": 679,
+    ".jpg": 1,
+    ".json": 52,
+    ".md": 412,
+    ".png": 122,
+    ".py": 35,
+    ".yaml": 2,
+    ".zip": 24
+  },
+  "figure_visual_review_counts": {
+    "reviewed_degenerate_distribution": 1,
+    "reviewed_empty_plot": 1,
+    "reviewed_nonplot_artifact": 1,
+    "reviewed_pass": 116,
+    "reviewed_reference_only": 2,
+    "reviewed_zero_or_hidden_series": 1,
+    "reviewed_zero_result": 1
+  },
+  "figures_pending_visual_review": 0,
+  "figures_total": 123,
+  "figures_visual_reviewed_total": 123,
+  "physical_files_total": 1327,
+  "processing_status_counts": {
+    "processed": 1327
+  },
+  "structural_errors": 0,
+  "structural_findings_total": 1,
+  "structural_warnings": 1,
+  "yaml_parser_available": true
+}

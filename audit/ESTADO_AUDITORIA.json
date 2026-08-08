@@ -1,0 +1,107 @@
+{
+  "audit_title": "Auditoria exhaustiva del Canon Maestro v1.2",
+  "audit_date": "2026-08-08",
+  "input_sha256": "e7f29b4df6cac21bd76c8bb5fd0a5bcde5db049171c8cb4b480e640749754970",
+  "completion_claimed": false,
+  "audit_status": "ready_for_user_approval_not_formally_closed",
+  "coverage_demonstrated": true,
+  "user_approval_received": false,
+  "current_phase": 5,
+  "phases": {
+    "0_preservacion_inventario": "completed",
+    "1_procesamiento_archivo_por_archivo": "completed",
+    "2_trazabilidad": "completed",
+    "3_reproduccion": "completed_with_reservations",
+    "4_estado_epistemologico": "completed",
+    "5_acta_comprension": "completed_pending_user_approval"
+  },
+  "coverage_denominator": {
+    "outer_files": 1327,
+    "declared_source_files": 1282,
+    "source_packages": 22,
+    "nested_zip_files": 24,
+    "embedded_logical_members": 181,
+    "figures": 123
+  },
+  "coverage_completed": {
+    "outer_files_processed": 1327,
+    "source_members_three_way_reconciled": 1282,
+    "embedded_logical_members_processed": 181,
+    "figures_structurally_validated": 123,
+    "figures_visually_reviewed": 123,
+    "linear_catalog_traces_verified": 17723,
+    "equation_occurrences_verified": 19262,
+    "unique_equation_rows_verified": 5556,
+    "datasets_catalog_verified": 667,
+    "verdict_rows_verified": 210,
+    "delivery_json_summaries_verified": 21,
+    "markdown_blocks_registered": 77895,
+    "canonical_core_claims_traced": 20,
+    "python_files_covered": 40,
+    "unique_python_hashes_executed_or_classified": 28,
+    "native_successful_python_hashes": 22,
+    "reproduction_negative_or_limitation_records": 14,
+    "key_solver_exact_repeat_checks": 3,
+    "claim_candidate_blocks_epistemically_classified": 32628,
+    "verdict_rows_epistemically_normalized": 210,
+    "core_claims_epistemically_normalized": 20,
+    "canonical_negative_occurrences_preserved": 143,
+    "open_doubt_occurrences_preserved": 81,
+    "final_file_coverage_rows": 1508,
+    "final_file_coverage_rows_complete": 1508,
+    "final_file_coverage_rows_incomplete": 0,
+    "final_coverage_rows_with_negative_or_limitation": 148
+  },
+  "final_deliverables": {
+    "acta": "phase_5/ACTA_FINAL_DE_COMPRENSION_PARA_APROBACION.md",
+    "coverage_matrix": "phase_5/MATRIZ_COBERTURA_ARCHIVO_POR_ARCHIVO.csv",
+    "coverage_summary": "phase_5/RESUMEN_COBERTURA_FINAL.json",
+    "artifact_manifest": "phase_5/MANIFIESTO_ARTEFACTOS_AUDITORIA.csv",
+    "evidence_bundle": "AUDITORIA_CANON_MAESTRO_V1_2_EVIDENCIAS.zip",
+    "evidence_bundle_integrity_record": "phase_5/PAQUETE_FINAL_INTEGRIDAD.json"
+  },
+  "preserved_negative_results": [
+    {
+      "id": "EXTRACTION-001",
+      "description": "La extraccion general produjo 53215232 de 55413489 bytes para GEOMETRY_OMEGA_TEORIA_COMPLETA_V1_0.zip.",
+      "status": "mitigated_with_exact_outer_member_recovery",
+      "source_evidence_intact": true
+    },
+    {
+      "id": "TRACE-001",
+      "description": "Se detectaron 17 caracteres de control en 5 Markdown; dos ecuaciones catalogadas contienen BELL o BACKSPACE.",
+      "status": "preserved_unmodified",
+      "source_evidence_intact": true
+    },
+    {
+      "id": "TRACE-002",
+      "description": "12997 de 19262 ocurrencias de ecuaciones proceden de un catálogo derivado o corpus compilado y no son apoyo independiente.",
+      "status": "quantified",
+      "source_evidence_intact": true
+    },
+    {
+      "id": "EPI-001",
+      "description": "31803 de 32628 bloques candidatos a afirmacion quedan sin una marca epistemologica local explicita bajo la clasificacion conservadora.",
+      "status": "classified_as_unlabeled_without_epistemic_elevation",
+      "source_evidence_intact": true
+    },
+    {
+      "id": "REP-001",
+      "description": "Tres hashes fallaron nativamente por dependencias ausentes: sympy, networkx y tabulate; no existe archivo de entorno bloqueado.",
+      "status": "preserved_with_limited_adapted_controls",
+      "source_evidence_intact": true
+    },
+    {
+      "id": "REP-002",
+      "description": "Dos archivos denominados solver no contienen logica ejecutable y un BVP requiere un fondo cargado completo no suministrado.",
+      "status": "not_end_to_end_reproducible",
+      "source_evidence_intact": true
+    },
+    {
+      "id": "REP-003",
+      "description": "El solver pulsacional converge con residuo absoluto de orden 1e-9 pero imprime un cociente relativo 3.6361483.",
+      "status": "preserved_as_normalization_limitation",
+      "source_evidence_intact": true
+    }
+  ]
+}

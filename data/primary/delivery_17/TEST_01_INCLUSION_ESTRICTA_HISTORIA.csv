@@ -1,0 +1,6 @@
+steps,visible_return,exact_state_return,history_size_final,strict_history_growth
+2,True,False,2,True
+4,True,False,4,True
+10,True,False,10,True
+50,True,False,50,True
+100,True,False,100,True

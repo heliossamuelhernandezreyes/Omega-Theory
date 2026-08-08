@@ -1,0 +1,10 @@
+{
+  "equation_occurrences_all": 19262,
+  "equation_occurrences_excluding_catalog_and_corpus": 6265,
+  "equation_occurrences_strict_source_documents": 6244,
+  "equation_occurrences_with_control_characters": 2,
+  "equation_unique_all": 5556,
+  "equation_unique_excluding_catalog_and_corpus": 5522,
+  "equation_unique_strict_source_documents": 5505,
+  "unique_equations_only_in_aggregates": 34
+}

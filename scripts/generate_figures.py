@@ -3,11 +3,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "data" / "selected"
+PRIMARY = ROOT / "data" / "primary"
+DERIVED = ROOT / "data" / "derived"
 FIG = ROOT / "figures"
 FIG.mkdir(exist_ok=True)
 
-p = DATA / "delivery_19__test_04_produccion_entropia.csv"
+p = PRIMARY / "delivery_19" / "TEST_04_PRODUCCION_ENTROPIA.csv"
 if p.exists():
     d = pd.read_csv(p)
     plt.figure(figsize=(8, 5.2))
@@ -21,7 +22,7 @@ if p.exists():
     plt.savefig(FIG / "core_entropy_production.png", dpi=180)
     plt.close()
 
-p = DATA / "delivery_21__test_02_aditividad_energia_frecuencia.csv"
+p = PRIMARY / "delivery_21" / "TEST_02_ADITIVIDAD_ENERGIA_FRECUENCIA.csv"
 if p.exists():
     d = pd.read_csv(p).sort_values("mean_additivity_error")
     plt.figure(figsize=(8, 5.2))
@@ -33,7 +34,7 @@ if p.exists():
     plt.savefig(FIG / "core_energy_frequency_additivity.png", dpi=180)
     plt.close()
 
-p = DATA / "delivery_18__monotonicity_summary.csv"
+p = DERIVED / "delivery_18__monotonicity_summary.csv"
 if p.exists():
     d = pd.read_csv(p).iloc[0]
     values = [

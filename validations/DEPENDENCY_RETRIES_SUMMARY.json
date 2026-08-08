@@ -1,0 +1,13 @@
+{
+  "retry_cases": 5,
+  "successful_retries": 5,
+  "delivery01_comparisons": 19,
+  "delivery01_comparison_statuses": {
+    "exact": 16,
+    "different": 2,
+    "equivalent": 1
+  },
+  "symbolic_numeric_assignments": 3,
+  "symbolic_components_evaluated": 21,
+  "qualification": "Dependency substitutes are limited audit controls, not replacements for reproducing with the declared third-party packages."
+}

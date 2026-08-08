@@ -11,7 +11,7 @@ class Check:
     value: float | int | str
     criterion: str
 
-ROOT = Path(__file__).resolve().parents[2] / "data" / "deliveries_01_17"
+ROOT = Path(__file__).resolve().parents[2] / "data" / "derived" / "deliveries_01_17"
 
 
 def _evaluate(value: float | int, criterion: str) -> bool:

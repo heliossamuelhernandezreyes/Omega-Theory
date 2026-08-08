@@ -1,0 +1,18 @@
+{
+  "repository_edition": "1.2.0-audited-repository",
+  "build_date": "2026-08-08",
+  "repository": "heliossamuelhernandezreyes/Omega-Theory",
+  "base_commit": "d620581e4a862af985c21e08c8477b3875a1cc30",
+  "target_base_branch": "main",
+  "planned_head_branch": "agent/canonical-scientific-repository-v1-2",
+  "canon_master_sha256": "e7f29b4df6cac21bd76c8bb5fd0a5bcde5db049171c8cb4b480e640749754970",
+  "audit_evidence_sha256": "c39cf2284eb7ccc33cdb09e803d005a7668cfddd0224fe2028236fd554daa63d",
+  "preservation_backup_sha256": "b22a572aef007f3c22506cd114d7a771206eb85759fe178cb4151e9f4c03d6df",
+  "active_tree_files": 164,
+  "published_file_manifest_rows": 163,
+  "scientific_content_changed": false,
+  "new_hypotheses_added": false,
+  "remote_full_reconstruction": "pending GitHub release asset attachment",
+  "verification_entrypoint": "scripts/verify_repository.py"
+}
+

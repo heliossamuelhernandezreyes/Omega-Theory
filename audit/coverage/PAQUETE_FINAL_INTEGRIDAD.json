@@ -1,0 +1,18 @@
+{
+  "file": "AUDITORIA_CANON_MAESTRO_V1_2_EVIDENCIAS.zip",
+  "size_bytes": 13406684,
+  "sha256": "c39cf2284eb7ccc33cdb09e803d005a7668cfddd0224fe2028236fd554daa63d",
+  "zip_test": "clean",
+  "contains": [
+    "phase_0",
+    "phase_1",
+    "phase_2",
+    "phase_3",
+    "phase_4",
+    "phase_5",
+    "tools",
+    "ESTADO_AUDITORIA.json",
+    "FASE_3_EVIDENCIAS.zip"
+  ],
+  "note": "El miembro fuente recuperado de 55 MB se referencia por SHA-256 en el manifiesto, pero no se duplica dentro de este paquete de evidencias."
+}
