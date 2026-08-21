@@ -1,0 +1,16 @@
+metric	key	value
+stable_graph_partition_pairs	all	12562
+open_transition_tests	all	33616
+open_support_equals_source_block_size	all	33616
+open_support_hist	1	29408
+open_support_hist	2	3312
+open_support_hist	3	896
+closed_block_min_open_support_hist	1	3040
+closed_block_min_open_support_hist	2	1008
+closed_block_min_open_support_hist	3	896
+close_transition_tests	all	39952
+close_support_ge_source_block_size	all	39952
+close_support_hist	1	31392
+close_support_hist	2	6240
+close_support_hist	3	2080
+close_support_hist	4	240
