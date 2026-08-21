@@ -1,0 +1,13 @@
+metric	value
+regions	15
+depth_1_graphs	3840
+depth_2_graphs	255
+depth_3_graphs	1
+depth_volume_bound_violations	0
+zero_exposure_equivalence_violations	0
+edge_isoperimetric_bound_violations	0
+unique_depth3_mask	4095
+unique_depth3_edge_count	12
+unique_depth3_aut_size	24
+unique_depth3_scc_count	1
+hamming_ball_radius2_size	79
