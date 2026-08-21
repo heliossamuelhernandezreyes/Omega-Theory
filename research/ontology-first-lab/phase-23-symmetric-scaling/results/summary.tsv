@@ -1,0 +1,6 @@
+n	directed_edges	subcritical_tests	subcritical_oneblock	critical_subsets	critical_breaks
+2	2	1	1	2	2
+3	6	7	7	15	3
+4	12	79	79	220	4
+5	20	1351	1351	4845	5
+6	30	31931	31931	142506	6
