@@ -1,0 +1,16 @@
+metric	key	value
+target_unique_stable_graphs	all	483
+random_arbitrary_graphs	all	30000
+local_break_edits_tested	all	69965
+absorptions_found	all	0
+target_partition_shape	2+3	112
+target_partition_shape	1+4	135
+target_partition_shape	1+2+2	236
+cascade_blocks	1	55117
+cascade_blocks	2	12941
+cascade_blocks	3	1376
+cascade_blocks	4	531
+pair_changes_min	all	1
+pair_changes_max	all	10
+max_final_refinement_depth	all	4
+full_2pow20_enumeration	status	attempted_but_timed_out_not_claimed
