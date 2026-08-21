@@ -1,0 +1,20 @@
+domain	metric	value
+n4	positive_oneblock_graphs	2401
+n4	law_violations	0
+n4	pred_exact_(1,1)	2145
+n4	pred_exact_(2,2)	255
+n4	pred_exact_(3,3)	1
+n5_1_out	systems	1024
+n5_1_out	oneblock	1024
+n5_1_out	constructive_break_verified	1024
+n5_2_out	systems	7776
+n5_2_out	oneblock	7776
+n5_2_out	constructive_break_verified	7776
+n5_3_out	systems	1024
+n5_3_out	oneblock	1024
+n5_3_out	constructive_break_verified	1024
+n5_4_out	systems	1
+n5_4_out	oneblock	1
+n5_4_out	constructive_break_verified	1
+n5_mixed_degree	tested	3072
+n5_mixed_degree	(1, True)	3072
