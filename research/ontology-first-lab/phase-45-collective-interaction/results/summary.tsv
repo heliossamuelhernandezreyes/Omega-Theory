@@ -1,0 +1,13 @@
+metric	key	value
+exhaustive_support_0_1_2_tests	all	704512
+signature_rule_violations	all	0
+random_high_support_tests	all	50000
+random_high_support_violations	all	0
+support_vs_partition_preserved	(0, True)	4096
+support_vs_partition_preserved	(1, False)	46080
+support_vs_partition_preserved	(1, True)	27648
+support_vs_partition_preserved	(2, False)	475920
+support_vs_partition_preserved	(2, True)	150768
+uniform_macro_access_construct	(1, 1, True)	9216
+uniform_macro_access_construct	(2, 2, True)	2304
+uniform_macro_access_construct	(3, 3, True)	3584
