@@ -1,0 +1,7 @@
+metric	candidate	value
+multi_path_endpoint_pairs	all	35
+path_independent_pairs	unit_step	1
+path_independent_pairs	source_outdegree	1
+path_independent_pairs	target_indegree	1
+positive_both_directions_for_endpoint_potential	all	0
+tested_reversible_pairs_for_endpoint_potential	all	81
