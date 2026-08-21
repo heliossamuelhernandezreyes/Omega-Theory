@@ -1,0 +1,10 @@
+metric	key	value
+unit_cross_interactions	all	73728
+source_nonsingleton_rule_violations	all	0
+source_block_size_vs_change	(1,0)	27648
+source_block_size_vs_change	(2,1)	13824
+source_block_size_vs_change	(3,1)	32256
+source_block_size_vs_delta_blocks	(1,0)	27648
+source_block_size_vs_delta_blocks	(2,1)	13824
+source_block_size_vs_delta_blocks	(3,1)	11520
+source_block_size_vs_delta_blocks	(3,2)	20736
