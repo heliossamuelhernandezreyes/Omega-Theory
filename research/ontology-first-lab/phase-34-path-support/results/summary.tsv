@@ -1,0 +1,14 @@
+metric	key	value
+max_unit_path_length	all	4
+triangle_inequality_violations	all	0
+regroup_endpoint_identity_violations	all	0
+closed_unit_paths	2	12
+closed_unit_paths	4	408
+unit_path_L_endpoint_gap	(1,1,0)	12
+unit_path_L_endpoint_gap	(2,0,2)	12
+unit_path_L_endpoint_gap	(2,2,0)	132
+unit_path_L_endpoint_gap	(3,1,2)	408
+unit_path_L_endpoint_gap	(3,3,0)	1320
+unit_path_L_endpoint_gap	(4,0,4)	408
+unit_path_L_endpoint_gap	(4,2,2)	8448
+unit_path_L_endpoint_gap	(4,4,0)	11880
