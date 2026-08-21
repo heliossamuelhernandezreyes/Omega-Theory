@@ -1,0 +1,14 @@
+metric	key	value
+stable_graph_partition_pairs	all	12562
+exit_distance_all_partitions	1	169984
+exit_distance_all_partitions	2	19968
+exit_distance_all_partitions	3	1536
+exit_distance_all_partitions	inf	54272
+exit_distance_stable_partitions	1	32896
+exit_distance_stable_partitions	inf	17352
+stable_representative_tests	all	33986
+stable_representative_invariant	all	33986
+stable_refinement_monotonicity_tests	all	64160
+stable_refinement_monotonicity_ok	all	64160
+stable_refinement_equal_distance	all	33204
+stable_refinement_strict_change	all	30956
