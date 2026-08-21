@@ -1,0 +1,11 @@
+metric	key	value
+formula	D(b,c)	(2^c-1)^b
+exhaustive_formula_violations	bc<=16	0
+minimum_support	B_to_C	b
+maximum_support	B_to_C	bc
+redundant_capacity	B_to_C	b(c-1)
+multiblock_factorization_violations	tested_profiles	0
+log_degeneracy	formula	b*log2(2^c-1)
+example_D	b=1,c=3	7
+example_D	b=2,c=3	49
+example_D	b=3,c=3	343
