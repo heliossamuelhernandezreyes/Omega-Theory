@@ -1,0 +1,13 @@
+generator_radius	generator_count	max_boundary_depth	graphs_depth_gt1	cross_steps	internal_steps	max_abs_delta_depth	cross_nonzero_delta_violations
+1	12	3	256	18096	31056	1	0
+2	78	2	1	148620	170868	1	0
+3	298	1	0	640564	580044	0	0
+metric	value
+r2_formula_violations	0
+r3_formula_violations	0
+d1_eq_d2	3840
+d1_ne_d2	256
+d1_eq_d3	3840
+d1_ne_d3	256
+d2_eq_d3	4095
+d2_ne_d3	1
