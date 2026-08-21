@@ -1,0 +1,7 @@
+metric	value
+n_directed_labeled_graphs	4096
+single_edge_flip_pairs	24576
+edge_count_changes	24576
+reciprocal_pair_count_changes	12288
+directed_triangle_count_changes	12288
+unique_cost_from_relabel_invariance_positivity_additivity	false
