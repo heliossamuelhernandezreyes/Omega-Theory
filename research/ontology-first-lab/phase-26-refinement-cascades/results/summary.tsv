@@ -1,0 +1,18 @@
+metric	key	value
+graphs_with_local_break_edits	all	3048
+one_edge_local_break_edits	all	9816
+local_break_changes_global_partition	all	9816
+local_break_absorbed_same_global_partition	all	0
+cascade_original_blocks_touched	1	7944
+cascade_original_blocks_touched	2	1632
+cascade_original_blocks_touched	3	240
+pair_equivalence_relations_changed	1	2760
+pair_equivalence_relations_changed	2	1536
+pair_equivalence_relations_changed	3	1776
+pair_equivalence_relations_changed	4	288
+pair_equivalence_relations_changed	5	1080
+pair_equivalence_relations_changed	6	2376
+nodes_with_equivalence_set_changed	2	2760
+nodes_with_equivalence_set_changed	3	1776
+nodes_with_equivalence_set_changed	4	5280
+local_vs_global_min_support	(1, 1)	3048
