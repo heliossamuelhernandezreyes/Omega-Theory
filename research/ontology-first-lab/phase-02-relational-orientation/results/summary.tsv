@@ -1,0 +1,6 @@
+group	order	abelian	distinct_triangle_holonomies	gauge_tests	exact_holonomy_invariant	conjugacy_covariant
+Z2	2	true	2	64	64	64
+Z3	3	true	3	729	729	729
+Z4	4	true	4	4096	4096	4096
+V4	4	true	4	4096	4096	4096
+S3	6	false	6	46656	23328	46656
