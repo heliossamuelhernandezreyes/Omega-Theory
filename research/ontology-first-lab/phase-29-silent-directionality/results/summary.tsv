@@ -1,0 +1,10 @@
+metric	key	value
+operation_depth_delta	add,0	13980
+operation_depth_delta	add,+1	1548
+operation_depth_delta	del,0	13980
+operation_depth_delta	del,-1	1548
+all_silent_depth_delta	-1	1548
+all_silent_depth_delta	0	27960
+all_silent_depth_delta	+1	1548
+reversible_silent_2cycles	all	15528
+strict_global_potential_possible	all	0
