@@ -1,0 +1,6 @@
+channels	sampled_vectors	distinct_translation_signatures	relative_dimension	shift_tests	invariant_tests
+1	5	1	0	35	35
+2	25	9	1	175	175
+3	125	61	2	875	875
+4	625	369	3	4375	4375
+5	3125	2101	4	21875	21875
