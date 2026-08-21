@@ -1,0 +1,6 @@
+metric	value
+partitions_of_4_microstates	15
+distinct_refinement_relations	15
+same_block_insertion_invariance	true
+partition_dependent_equivalence_pairs_found	true
+max_test_path_edges	3
