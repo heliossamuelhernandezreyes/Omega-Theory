@@ -32,6 +32,7 @@ El flujo obligatorio es:
 ## Investigaciones
 
 - `phase-01-randomness-statistics/`: primera investigación sobre azar, probabilidad, coarse-graining y estadística de genealogías.
+- `phase-18-support-renormalization/`: transformación del soporte estructural entre coarse-grainings estables; extensividad exacta para apertura/cierre de accesibilidad macro fija.
 
 ## Regla de promoción
 
