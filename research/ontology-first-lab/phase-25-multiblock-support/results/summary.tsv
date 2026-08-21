@@ -1,0 +1,14 @@
+metric	key	value
+non_singleton_multiblock_records	all	1016
+naive_vs_collective_mismatches_all_blocks	all	694
+local_formula_vs_bruteforce_violations	all	0
+naive_min_multiplicity_hist	1	3696
+naive_min_multiplicity_hist	2	118
+naive_min_multiplicity_hist	3	4
+collective_remove_support_hist	1	3012
+collective_remove_support_hist	2	552
+collective_remove_support_hist	3	172
+collective_remove_support_hist	4	54
+collective_remove_support_hist	5	24
+collective_remove_support_hist	6	4
+break_non_singleton_block_support_hist	1	1016
