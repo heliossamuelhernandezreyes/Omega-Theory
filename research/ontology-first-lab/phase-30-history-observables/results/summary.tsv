@@ -1,0 +1,15 @@
+metric	key	value
+single_step_class	(0, 1, 1)	9048
+single_step_class	(0, 1, -1)	9048
+single_step_class	(0, 0, 1)	13980
+single_step_class	(0, 0, -1)	13980
+single_step_class	(1, 0, 1)	1548
+single_step_class	(-1, 0, -1)	1548
+identity_violations	edge_TV_equals_length	0
+identity_violations	depth_telescope	0
+identity_violations	edge_telescope	0
+two_cycle_class	(0, 0)	27960
+two_cycle_class	(0, 2)	18096
+two_cycle_class	(2, 0)	3096
+closed_paths_len_le_4	all	1720320
+trajectory_max_length	all	4
