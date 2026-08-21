@@ -1,0 +1,14 @@
+metric	key	value
+pair_split_support	1	12948
+pair_split_support	2	2880
+pair_split_support	3	96
+pair_merge_support	1	8004
+pair_merge_support	2	648
+whole_partition_change_support	1	3840
+whole_partition_change_support	2	255
+whole_partition_change_support	3	1
+split_by_blocksize_distance	(2, 1)	768
+split_by_blocksize_distance	(3, 1)	744
+split_by_blocksize_distance	(4, 1)	11436
+split_by_blocksize_distance	(4, 2)	2880
+split_by_blocksize_distance	(4, 3)	96
