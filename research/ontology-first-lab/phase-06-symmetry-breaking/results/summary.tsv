@@ -1,0 +1,14 @@
+metric	key	value
+tested_fixed_channel_edge_flips	all	36864
+transition_class	orbit_merge	2976
+transition_class	orbit_split	2976
+transition_class	orbit_unchanged	30912
+delta_hist	(-2, 2, 2)	72
+delta_hist	(-2, 5, 2)	48
+delta_hist	(-1, 1, 1)	2832
+delta_hist	(-1, 4, 1)	24
+delta_hist	(0, 0, 0)	30912
+delta_hist	(1, -4, -1)	24
+delta_hist	(1, -1, -1)	2832
+delta_hist	(2, -5, -2)	48
+delta_hist	(2, -2, -2)	72
