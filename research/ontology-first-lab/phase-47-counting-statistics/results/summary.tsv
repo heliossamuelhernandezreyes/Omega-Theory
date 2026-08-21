@@ -1,0 +1,13 @@
+metric	key	value
+identity_moment_checks	all	36
+identity_moment_violations	all	0
+generating_function	all	((1+x)^c-1)^b
+degeneracy	all	(2^c-1)^b
+mean_W	all	b*c*2^(c-1)/(2^c-1)
+variance_W	all	b*Var(K)
+minimum_support	all	b
+maximum_support	all	b*c
+large_c_mean_asymptotic	all	b*c/2
+relative_fluctuation_fixed_c_large_b	all	O(1/sqrt(b))
+physical_probability_derived	all	0
+uniform_counting_measure_assumed_for_statistics	all	1
