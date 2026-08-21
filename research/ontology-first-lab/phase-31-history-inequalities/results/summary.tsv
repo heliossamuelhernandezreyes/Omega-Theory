@@ -1,0 +1,12 @@
+metric	key	value
+elementary_directed_steps	all	49152
+step_class_delta_d_cross	(-1, 0)	1548
+step_class_delta_d_cross	(0, 0)	27960
+step_class_delta_d_cross	(0, 1)	18096
+step_class_delta_d_cross	(1, 0)	1548
+max_abs_delta_d	all	1
+cross_and_nonzero_delta_d_violations	all	0
+lipschitz_violations	all	0
+two_cycle_TVd_Ncross	(0, 0)	27960
+two_cycle_TVd_Ncross	(0, 2)	18096
+two_cycle_TVd_Ncross	(2, 0)	3096
