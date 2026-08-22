@@ -1,0 +1,9 @@
+metric	key	value
+same_partition_n2	all	4
+same_partition_n3	all	28
+same_partition_n4	all	1696
+total_n2	all	4
+total_n3	all	64
+total_n4	all	4096
+complement_involution_violations	all	0
+bernoulli_complement_fixed_point	p	0.5
