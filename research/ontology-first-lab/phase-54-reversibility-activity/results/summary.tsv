@@ -1,0 +1,9 @@
+metric	value
+main_sha	6a3fad9c36a4795899bf0cbe1e00a608684ee0a5
+branch_ahead_before_phase	212
+stationary_activity_formula	A=2 D s p(1-p)
+activity_formula_violations	0
+binary_local_reversible	true
+three_state_ring_stationary_uniform	true
+ring_current_formula	J=(a-b)/3
+ring_entropy_production_formula	sigma=(a-b)log(a/b)
