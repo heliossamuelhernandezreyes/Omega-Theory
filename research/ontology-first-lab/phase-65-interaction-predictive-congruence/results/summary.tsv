@@ -1,0 +1,15 @@
+metric	value
+unit_interaction_tests	192
+unit_interaction_violations	0
+complete_interaction_states	512
+initial_uncoupled_states	64
+initial_output_classes	5
+predictive_classes_all_512	39
+predictive_classes_initial_64	12
+refinement_history	5,39,39
+depth0_initial_signatures	5
+depth1_initial_signatures	12
+depth2_initial_signatures	12
+Pi_all_three_block_microstates	28
+Pi_all_three_block_predictive_classes	8
+other_Pi_classes_predictive_classes_each	1
