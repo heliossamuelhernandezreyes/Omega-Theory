@@ -1,0 +1,7 @@
+metric	value
+histories_enumerated	9324
+endpoint_collision_classes	105
+classes_with_distinct_TV_logAut	87
+classes_with_distinct_Pi_trace	102
+classes_with_distinct_unique_state_count	48
+same_endpoint_TV_Pi_but_distinct_full_history_classes	2565
