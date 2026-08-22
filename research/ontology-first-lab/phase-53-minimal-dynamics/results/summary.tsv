@@ -1,0 +1,7 @@
+metric	value
+stationary_binomial_violations	0
+composition_violations	0
+D_values	2,3,6,12
+stationary_p	alpha/(alpha+beta)
+nonlinear_exchangeable_counterexample	present
+reversibility_status	local_binary_chain_satisfies_detailed_balance
