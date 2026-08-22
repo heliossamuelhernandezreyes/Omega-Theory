@@ -1,0 +1,6 @@
+metric	key	value
+basis_invariance_violations	all	0
+strict_markov_additive_channels	all	1
+strict_markov_free_structural_couplings	all	1
+historical_channels_requiring_state_extension	all	2
+contextual_channels_without_closed_composition	all	2
