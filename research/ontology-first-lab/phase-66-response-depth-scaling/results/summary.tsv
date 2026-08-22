@@ -1,0 +1,5 @@
+n_A	internal_microstates	total_interaction_states	current_classes	first_order_classes	full_predictive_classes	d_star
+1	1	2	1	1	1	0
+2	4	16	2	2	2	0
+3	64	512	5	12	12	1
+4	4096	65536	15	187	452	2
