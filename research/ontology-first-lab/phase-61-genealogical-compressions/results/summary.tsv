@@ -1,0 +1,8 @@
+rule	minimal_tested_sufficient_compression
+endpoint_only	Gamma
+W_dependent	Gamma_W
+TV_dependent	Gamma_W_TV
+PiTrace_dependent	Gamma_W_TV_PiTrace
+last_edge_dependent	full_history
+edge_hist_dependent	Gamma_edge_hist
+full_order_dependent	full_history
