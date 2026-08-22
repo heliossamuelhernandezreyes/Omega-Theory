@@ -1,0 +1,6 @@
+metric	key	value
+global_rescaling_cases	all	16
+global_rescaling_violations	all	0
+asymmetric_rescaling_changes_internal_fraction	all	1
+internal_clock_observable	a_A_over_a_B	preserved_under_common_scale
+historical_support_clock	W_hist	counts_elementary_events
