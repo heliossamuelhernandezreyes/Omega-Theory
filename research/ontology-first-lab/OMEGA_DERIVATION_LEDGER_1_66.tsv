@@ -1,0 +1,25 @@
+item	epistemic_class	premises_or_scope	status	verdict
+canonical-base	C0	main@6a3fad9c36a4795899bf0cbe1e00a608684ee0a5	fixed	Canonical base remains untouched
+positive-composition-exponential	C1	R(u+v)=R(u)R(v), R>0, regularity	derived	R(u)=exp(-su)
+stable-coarsegraining	C2	set-valued refinement descriptor	derived-in-domain	Pi_* fixed point; descriptor-dependent
+history-no-return	C1/C2	history extends by nonempty update	conditional-derived	configuration return != ontological return
+structural-support	C2	macro-access descriptor	derived-in-domain	S_open=|B|; support laws
+min-outdegree-robustness	C2	single-block sector	derived-in-sector	S_crit=delta_out
+cost-uniqueness	C5	additivity+positivity	not-derived	dual cone leaves infinitely many costs
+collective-interaction	C1/C2	cross-signature descriptor	derived-in-domain	partition preserved iff cross signature uniform in old blocks
+saturation-degeneracy	C1/C2	set-valued macro access	derived	D(b,c)=(2^c-1)^b
+counting-statistics	C1	uniform-counting convention	conditional	generating function exact; physical measure not derived
+symmetry-equiprobability	C5	permutation invariance	refuted-as-unique-measure	weights free between orbits
+projectivity-conditioned	C5/C2	nonempty compatible subsets	collapse	exact projectivity forces full saturation
+exchangeability	C1	ambient infinite exchangeable/projective family	derived-mathematically	de Finetti mixture; iid only extremal
+minimal-toggle-dynamics	C4->C1	binary iid CTMC	conditional-derived	stationary p=alpha/(alpha+beta)
+relational-time	C1/C4	internal stationary event clocks	conditional-derived	global rate scale redundant; ratios observable
+structure-to-rate	C5	composition constraints	subdetermined	additive observables give exp(kX), k free
+genealogical-state	C2/C5	enumerated histories n=3	derived-in-domain	Gamma not ontologically complete; memory class law-dependent
+predictive-congruence	C1/C2	Moore/Myhill-Nerode criterion	derived	minimal effective state is predictive quotient
+interaction-depth-n3	C2	A3+B cross toggles	derived-in-domain	d_*=1
+interaction-depth-n4	C2	A4+B cross toggles	derived-in-domain	d_*=2; universal d_*=1 refuted
+born-rule	C5	current classical path framework	not-derived	no complex amplitudes/interference/Born
+lorentz	C5	current relational-time framework	not-derived	no Lorentz metric/invariance
+gravity	C5	current structural/dynamic framework	not-derived	no GR or equivalence principle
+standard-model	C5	current gauge sector	not-derived	no SU3xSU2xU1 matter structure
