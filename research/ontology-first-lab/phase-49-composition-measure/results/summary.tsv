@@ -1,0 +1,7 @@
+metric	key	value
+factorization_tests	all	962
+factorization_violations	all	0
+gibbs_conditioned_checks	all	15
+gibbs_conditioned_violations	all	0
+b4c4_symmetry_only_dof	all	229
+b4c4_source_factorization_dof	all	3
