@@ -1,0 +1,9 @@
+metric	value
+homomorphism_total_violations	0
+toggle_endpoint_tests	1849
+toggle_endpoint_violations	0
+pattern_transition_tests	1849
+pattern_transition_violations	0
+pattern_transition_monoid_size	12
+TV_cocycle_tests	118336
+TV_cocycle_violations	0
