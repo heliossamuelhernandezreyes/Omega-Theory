@@ -1,0 +1,13 @@
+metric	value
+alphabet_size_D	6
+recursive_update_violations	0
+finite_DFA_pattern_tests	55987
+finite_DFA_pattern_violations	0
+W_memory_type	fixed_dimension_unbounded_range
+TV_memory_type	fixed_dimension_unbounded_range
+histogram_memory_type	fixed_dimension_unbounded_range
+parity_memory_type	finite_state
+last_2_memory_type	finite_state
+exact_order_memory_type	growing
+exact_order_state_lower_bound_depth_n	6^n
+exact_order_bit_lower_bound_depth_n	n*log2(6)
