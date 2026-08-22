@@ -1,0 +1,8 @@
+metric	value
+scale_rescaling_cases	126
+scale_rescaling_violations	0
+affine_translation_ratio_cases	96
+affine_translation_ratio_violations	0
+main_commit	6a3fad9c36a4795899bf0cbe1e00a608684ee0a5
+branch_ahead_before_phase	220
+branch_behind_before_phase	0
