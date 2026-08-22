@@ -1,0 +1,8 @@
+metric	value
+covariance_identity_violations	0
+mix_delta_0.2_Var_p	0.0
+mix_delta_0.5_Var_p	0.0
+mix_delta_0.8_Var_p	0.0
+mix_0.2_0.8_Var_p	0.09
+mix_0.1_0.5_0.9_Var_p	0.0784
+mix_0.3_0.7_Var_p	0.03
