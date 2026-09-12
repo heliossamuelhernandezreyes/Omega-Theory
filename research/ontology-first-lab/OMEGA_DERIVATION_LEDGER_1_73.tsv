@@ -1,0 +1,51 @@
+item	epistemic_class	premises_or_scope	status	verdict
+canonical-base	C0	main@6a3fad9c36a4795899bf0cbe1e00a608684ee0a5	fixed	Canonical base remains untouched
+positive-composition-exponential	C1	R(u+v)=R(u)R(v), R>0, regularity	derived	R(u)=exp(-su)
+stable-coarsegraining	C2	set-valued refinement descriptor	derived-in-domain	Pi_* fixed point; descriptor-dependent
+history-no-return	C1/C2	history extends by nonempty update	conditional-derived	configuration return != ontological return
+structural-support	C2	macro-access descriptor	derived-in-domain	S_open=|B|; support laws
+min-outdegree-robustness	C2	single-block sector	derived-in-sector	S_crit=delta_out
+cost-uniqueness	C5	additivity+positivity	not-derived	dual cone leaves infinitely many costs
+collective-interaction	C1/C2	cross-signature descriptor	derived-in-domain	partition preserved iff cross signature uniform in old blocks
+saturation-degeneracy	C1/C2	set-valued macro access	derived	D(b,c)=(2^c-1)^b
+counting-statistics	C1	uniform-counting convention	conditional	generating function exact; physical measure not derived
+symmetry-equiprobability	C5	permutation invariance	refuted-as-unique-measure	weights free between orbits
+projectivity-conditioned	C5/C2	nonempty compatible subsets	collapse	exact projectivity forces full saturation
+exchangeability	C1	ambient infinite exchangeable/projective family	derived-mathematically	de Finetti mixture; iid only extremal
+minimal-toggle-dynamics	C4->C1	binary iid CTMC	conditional-derived	stationary p=alpha/(alpha+beta)
+relational-time	C1/C4	internal stationary event clocks	conditional-derived	global rate scale redundant; ratios observable
+structure-to-rate	C5	composition constraints	subdetermined	additive observables give exp(kX), k free
+genealogical-state	C2/C5	enumerated histories n=3	derived-in-domain	Gamma not ontologically complete; memory class law-dependent
+predictive-congruence	C1/C2	Moore/Myhill-Nerode criterion	derived	minimal effective state is predictive quotient
+interaction-depth-n3	C2	A3+B cross toggles	derived-in-domain	d_*=1
+interaction-depth-n4	C2	A4+B cross toggles	derived-in-domain	d_*=2; universal d_*=1 refuted
+operational-locality	C1/C4	chosen influence relation	constructible	influence graph and graph distance can be defined once relation is specified
+unique-physical-locality	C5	multiple admissible influence relations	not-derived	ontology does not yet select one physical locality relation
+growth-dimension	C3/C5	chosen graph metric/protocol	candidate-observable	growth exponent depends on geometry and measurement protocol
+D3-selection-phase68	C5	finite locality+homogeneity+extension+growth	not-derived	current criteria do not select D=3
+phase68-quantitative-table	C3	archived summary.csv	not-regenerable-from-phase	qualitative no-go retained; exact historical numbers have reproducibility reservation
+predictive-depth-geometry-phase69	C2	preregistered labeled-edge protocol; five exact finite graph families	not-derived-subdetermined	cycle, 2D, 3D, tree and complete graph all give d_*=1
+phase69-protocol-saturation	C4/C5	predictive_classes=microstates after depth 1 in all executed families	supported-as-problem	labeled interventions over-identify relative to phase70 quotient
+relational-action-quotient-phase70	C2	edge actions quotiented by Aut(G); set-valued responses; five exact families	supported	predictive classes compress strongly and cube3 requires d_*^rel=2
+phase70-automorphism-equality	C2	five exact finite families	regularity-exact-in-domain	predictive_classes equals microstate orbit count under Aut(G); general theorem open
+phase70-D3-selection	C5	preregistered phase70 protocol	not-derived	cycle, 2D, tree and complete remain at d_*^rel=1; 3D separation is not unique-dimension theorem
+phase71-aut-invariance	C1	Aut(G)-invariant initial observable + action classes are edge orbits + set-valued responses	derived	for every finite G and every depth k, Aut(G)-equivalent microstates remain predictively equivalent
+phase71-orbit-equality-n5	C2	all connected simple unlabeled graphs with 2<=n<=5; 30 exact substrate classes	supported-exact-in-domain	P_infty^rel equals X/Aut(G) in 30/30 classes; no counterexample in preregistered domain
+phase71-orbit-equality-universal	C5	all finite graphs under phase70 protocol	not-derived	reciprocal separation of distinct Aut(G) orbits remains unproved
+phase71-depth-small-domain	C2	30 connected classes n<=5	exact-in-domain	8 substrates have d_*^rel=0 and 22 have d_*^rel=1; none >1
+phase72-representational-invariance	C1	relational representation + covariant admissible observations/actions	derived	predictive distinctions cannot depend on non-ontological labels; orbit quotient refines predictive quotient
+phase72-separability-criterion	C1	definition of predictive congruence + representation symmetry	derived	P_infty=X/G_R iff admissible observation/action algebra separates all distinct G_R orbits
+phase72-complete-separability	C5	current canonical ontology	not-derived	canon does not guarantee complete observability/controlability or finite separation of all relationally distinct states
+phase72-protocol-status	C2/C5	phases70-71 descriptor and action algebra	conditional-in-domain	separating in tested domains but not selected universally by ontology
+phase73-minimal-accessibility-structure	C1	canonical compatible continuations Gamma(x)	derived	Gamma induces directed continuation support x->y and finite-path reachability
+phase73-reachability-closure	C1	finite concatenation of compatible continuations	derived	transitive reachability; reflexive when empty path included; elementary relation need not be reflexive/symmetric/transitive
+phase73-history-acyclicity	C1	strict causal-history extension per nonempty update	derived	lifted histories are acyclic even if projected configuration repeats
+phase73-support-selection	C1/C5	branching Gamma(x) with at least two accessible continuations	no-go	accessibility support does not determine which continuation is realized
+phase73-probability-from-support	C5	Gamma(x) support only	not-derived	infinitely many measures/kernels can share identical support; Born/equiprobability not selected
+phase73-rate-from-order	C5	continuation order only	not-derived	precedence does not fix duration, absolute frequency, or transition rate
+phase73-potentiality-cardinality	C5	canonical potentiality as effective accessibility	not-derived	|Gamma| or log|Gamma| cannot be promoted to physical potentiality without representation-invariance derivation
+fundamental-dynamics	C5	current ontology/research corpus	not-derived	multiple compatible realization laws remain main bottleneck
+born-rule	C5	current classical path/support framework	not-derived	no complex amplitudes/interference/Born
+gauge-matter	C5	current research corpus	not-derived	no SU3xSU2xU1 matter structure
+lorentz	C5	current relational-time framework	not-derived	no Lorentz metric/invariance
+gravity	C5	current structural/dynamic framework	not-derived	no GR or equivalence principle
