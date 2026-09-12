@@ -12,15 +12,15 @@ Este laboratorio conserva investigaciones nuevas que parten de la ontología vig
 
 El flujo obligatorio es:
 
-1. auditar el estado de `main` y fijar el commit base;
-2. identificar únicamente las premisas ontológicas/canónicas utilizadas;
-3. derivar sin introducir constantes observacionales, distribuciones, simetrías, dimensionalidad o leyes por conveniencia;
-4. preregistrar las pruebas de alto riesgo antes de ejecutar cuando corresponda;
-5. probar, buscar contraejemplos y ejecutar pruebas reproducibles;
+1. auditar `main` y fijar el commit base;
+2. identificar sólo las premisas ontológicas/canónicas realmente usadas;
+3. derivar sin introducir constantes observacionales, distribuciones, dimensionalidad o leyes por conveniencia;
+4. preregistrar las pruebas de alto riesgo antes de ejecutar;
+5. probar, buscar contraejemplos y ejecutar cálculos reproducibles;
 6. conservar resultados positivos y negativos;
 7. declarar explícitamente subdeterminación;
-8. sólo después comparar con evidencia observable;
-9. cualquier corrección debe volver a ontología/traducción matemática, no calibrar retrospectivamente para obtener el dato deseado;
+8. sólo después comparar con observación;
+9. no calibrar retrospectivamente para obtener el dato deseado;
 10. ningún resultado asciende al canon sin auditoría y decisión explícita posterior.
 
 ## Punto de partida
@@ -32,18 +32,18 @@ El flujo obligatorio es:
 
 ## Consolidación vigente
 
-- `OMEGA_SYNTHESIS_1_70.md` — síntesis vigente 1–70.
-- `OMEGA_DERIVATION_LEDGER_1_70.tsv` — ledger epistemológico vigente.
-- `PHASE_INDEX_1_70.md` — índice autoritativo y gobernanza de numeración.
+- `OMEGA_SYNTHESIS_1_71.md` — síntesis vigente 1–71.
+- `OMEGA_DERIVATION_LEDGER_1_71.tsv` — ledger epistemológico vigente.
+- `PHASE_INDEX_1_71.md` — índice autoritativo y gobernanza de numeración.
 - `BLOCK_01_REPOSITORY_SANITATION.md` — saneamiento previo a Fase 69.
 
-Las consolidaciones 1–66, 1–68 y 1–69 se conservan como snapshots históricos y no se sobrescriben.
+Las consolidaciones anteriores se preservan como snapshots históricos y no se sobrescriben.
 
 ## Gobernanza — Fase 34
 
 Las tres rutas históricas con prefijo `phase-34-*` no se renombran. Sus alias son 34A (`grouping-invariance`), 34B (`path-support`) y 34R (`reconciliation`). Desde Fase 69 no se reutilizan números.
 
-## Hitos 64–70
+## Hitos 64–71
 
 - Fase 64: congruencia predictiva mínima.
 - Fase 65: respuesta predictiva bajo interacción.
@@ -52,38 +52,40 @@ Las tres rutas históricas con prefijo `phase-34-*` no se renombran. Sus alias s
 - Fase 68: filtros geométricos no seleccionan D=3; números históricos mantienen reserva de reproducibilidad.
 - Fase 69: con acciones etiquetadas, cinco familias exactas dieron `d_*=1` y `predictive_classes=microstates`; selección geométrica no derivada.
 - Fase 70: acciones cocientadas por órbitas de aristas de `Aut(G)` eliminan sobreidentificación; en cinco familias exactas `predictive_classes = microstate_orbits_under_Aut(G)`. El cubo 3D requiere `d_*^rel=2`; ciclo, 2D, árbol y completo requieren 1. D=3 sigue no derivada.
+- Fase 71: en las 30 clases conectadas no isomorfas con `2<=n<=5`, `P_infty^rel = X/Aut(G)` exactamente. Además, el Teorema 71-A demuestra para cualquier grafo finito que estados relacionados por `Aut(G)` no pueden separarse predictivamente bajo este protocolo. La recíproca universal permanece abierta.
 
 ## Reproducibilidad
 
-Un resultado cuantitativo sin productor/protocolo suficiente no se eleva por inferencia. Debe clasificarse como archivado/no regenerable hasta recuperar evidencia o abrir una reproducción nueva.
+Un resultado cuantitativo sin productor/protocolo suficiente no se eleva por inferencia. Las Fases 69–71 incluyen prerregistro, productor y resultados dentro de su propio directorio.
 
-Fases 69 y 70 incluyen prerregistro, productor y resultados dentro de su propio directorio. Las instancias que exceden el límite exacto se marcan `NO_EJECUTADA_EXACT_LIMIT` y no se reemplazan silenciosamente por muestreo.
+Fase 71 usa enumeración exhaustiva de clases conectadas hasta cinco vértices; no amplía retrospectivamente el dominio después de observar éxito.
 
 ## Estado científico
 
-El cuello de botella dominante sigue siendo la **subdeterminación**: múltiples medidas, costos, dinámicas, localidades y geometrías son compatibles con la estructura actual.
+El cuello de botella dominante sigue siendo la **subdeterminación**. Fases 70–71 aislaron una estructura matemática más precisa:
 
-Fase 70 añade una dirección prometedora pero limitada: los cocientes por simetría pueden remover información espuria y revelar profundidad predictiva que el etiquetado absoluto ocultaba. Esto no selecciona todavía nuestro universo.
+`microestado etiquetado -> cociente por simetría -> estado predictivo relacional`.
+
+En todos los sustratos pequeños probados, los dos últimos niveles coinciden exactamente. La dirección `misma órbita => misma clase predictiva` ya es teorema; falta saber cuándo vale la recíproca.
+
+Esto no selecciona todavía una geometría, una dimensión ni una dinámica física única.
 
 ## Secuencia de alto riesgo
 
 1. separar simetría estática de información dinámica;
-2. reducir subdeterminación de dinámica/localidad;
-3. continuo, dimensión y causalidad;
-4. estructura lorentziana;
-5. amplitudes/quantum y Born;
-6. gravedad geométrica;
-7. gauge y materia;
-8. predicciones congeladas antes de observación.
+2. caracterizar separabilidad de órbitas bajo acciones relacionales;
+3. reducir subdeterminación de dinámica/localidad;
+4. continuo, dimensión y causalidad;
+5. estructura lorentziana;
+6. amplitudes/quantum y Born;
+7. gravedad geométrica;
+8. gauge y materia;
+9. predicciones congeladas antes de observación.
 
 ## Próxima fase autorizada
 
-**Fase 71 — cociente predictivo vs cociente por automorfismos.**
+**Fase 72 — separabilidad de órbitas / búsqueda de contraejemplo fuera de `n<=5`.**
 
-Debe intentar demostrar condiciones suficientes/necesarias para
-
-`P_infty^rel = X / Aut(G)`
-
-o encontrar el menor contraejemplo explícito. Debe distinguir qué información proviene de simetría y cuál de profundidad dinámica, sin introducir una dimensión objetivo.
+Debe preregistrarse independientemente. La prioridad es derivar condiciones suficientes para que órbitas distintas sean separables por protocolos relacionales y diseñar una búsqueda dirigida a estructuras que violen esas condiciones.
 
 Cada fase mayor cerrará explícitamente como `DERIVADO`, `SOPORTE ESTRUCTURAL`, `NO DERIVADO/SUBDETERMINADO` o `REFUTADO EN EL MODELO`.
