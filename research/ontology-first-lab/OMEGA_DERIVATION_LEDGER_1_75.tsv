@@ -1,0 +1,24 @@
+item	epistemic_class	premises_or_scope	status	verdict
+canonical-base	C0	main@6a3fad9c36a4795899bf0cbe1e00a608684ee0a5	fixed	Canonical base remains untouched
+potentiality-accessibility	C0/C1	canonical definition	fixed/translated	potentiality is effective accessibility; not probability energy or cardinality by definition
+support-selection-phase73	C1	Gamma(x) accessibility support	derived	accessibility does not determine realization
+phase74-admissibility	C1	realization rule relative to Gamma(x)	derived	realized continuation must lie in accessible support
+phase74-relational-covariance	C1	relational ontology; representation symmetries	derived	physical realization law cannot depend on non-ontological labels
+phase74-deterministic-selector-obstruction	C1	gx=x and stabilizer acts without fixed point on accessible alternatives	derived	no single-valued deterministic selector can be fully covariant under that symmetry
+phase75-state-enrichment	C1/C5	add relational information lambda to break stabilizer	sufficient-not-derived	enrichment can restore selector but is not necessary or unique
+phase75-orbit-realization	C1/C5	quotient alternatives by stabilizer	consistent-not-derived	quotient removes representative contradiction but does not prove orbit is physical state
+phase75-set-valued-selector	C1/C5	set-valued covariant map	possible-not-derived	can be covariant without individual selection; does not imply superposition or many worlds
+phase75-enrichment-necessity	C5	countermodel via orbit quotient	refuted	enrichment is not logically necessary
+phase75-orbit-necessity	C5	countermodel via enriched deterministic state	refuted	orbit realization is not logically necessary
+phase75-indeterminism-necessity	C5	countermodel via enriched deterministic state	refuted	fundamental indeterminism is not forced by current premises
+phase75-intraorbit-uniformity	C1	assumed normalized invariant measure on finite transitive orbit	conditional-derived	measure uniform within orbit
+phase75-probability-existence	C5	current ontology	not-derived	no physical probability measure follows from selector obstruction
+phase75-structural-indeterminacy	C1	accessible alternatives + no invariant separator + no covariant deterministic selector	derived-at-description-level	current state description insufficient for individual deterministic selection
+phase75-trilemma	C1	selector obstruction + desire for individual outcome	derived	must enrich state, abandon deterministic individual selector at that level, or deny representative physicality
+fundamental-dynamics	C5	current ontology/research corpus	not-derived	selection principle remains absent
+born-rule	C5	current framework	not-derived	no Born rule
+quantum	C5	current framework	not-derived	no amplitudes or superposition derived
+lorentz	C5	current framework	not-derived	no Lorentz structure
+gravity	C5	current framework	not-derived	no GR/equivalence derivation
+D3-selection	C5	current framework	not-derived	no unique dimension
+standard-model	C5	current framework	not-derived	no gauge/matter derivation
