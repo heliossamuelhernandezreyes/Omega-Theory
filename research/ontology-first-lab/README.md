@@ -13,14 +13,15 @@ Este laboratorio conserva investigaciones nuevas que parten de la ontología vig
 El flujo obligatorio es:
 
 1. auditar el estado de `main` y fijar el commit base;
-2. identificar únicamente las premisas ontológicas/canónicas realmente utilizadas;
+2. identificar únicamente las premisas ontológicas/canónicas utilizadas;
 3. derivar sin introducir constantes observacionales, distribuciones, simetrías, dimensionalidad o leyes por conveniencia;
-4. probar, buscar contraejemplos y ejecutar pruebas numéricas reproducibles;
-5. conservar resultados positivos y negativos;
-6. declarar explícitamente cualquier subdeterminación;
-7. sólo después comparar con evidencia observable;
-8. cualquier corrección debe volver a la ontología o a su traducción matemática, no calibrar retrospectivamente la ecuación para obtener el dato deseado;
-9. ningún resultado asciende al canon sin auditoría y decisión explícita posterior.
+4. preregistrar las pruebas de alto riesgo antes de ejecutar cuando corresponda;
+5. probar, buscar contraejemplos y ejecutar pruebas reproducibles;
+6. conservar resultados positivos y negativos;
+7. declarar explícitamente subdeterminación;
+8. sólo después comparar con evidencia observable;
+9. cualquier corrección debe volver a ontología/traducción matemática, no calibrar retrospectivamente para obtener el dato deseado;
+10. ningún resultado asciende al canon sin auditoría y decisión explícita posterior.
 
 ## Punto de partida
 
@@ -31,75 +32,58 @@ El flujo obligatorio es:
 
 ## Consolidación vigente
 
-- `OMEGA_SYNTHESIS_1_68.md`: síntesis epistemológica y matemática vigente de las fases 1–68.
-- `OMEGA_DERIVATION_LEDGER_1_68.tsv`: ledger compacto vigente de resultados derivados, condicionales, subdeterminados y no derivados.
-- `PHASE_INDEX_1_68.md`: índice autoritativo de numeración/rutas y resolución de la colisión histórica de Fase 34.
-- `BLOCK_01_REPOSITORY_SANITATION.md`: acta de saneamiento previa a Fase 69.
+- `OMEGA_SYNTHESIS_1_70.md` — síntesis vigente 1–70.
+- `OMEGA_DERIVATION_LEDGER_1_70.tsv` — ledger epistemológico vigente.
+- `PHASE_INDEX_1_70.md` — índice autoritativo y gobernanza de numeración.
+- `BLOCK_01_REPOSITORY_SANITATION.md` — saneamiento previo a Fase 69.
 
-Los archivos `OMEGA_SYNTHESIS_1_66.md` y `OMEGA_DERIVATION_LEDGER_1_66.tsv` se conservan como **snapshots históricos**. No deben modificarse para simular que ya contenían resultados posteriores.
+Las consolidaciones 1–66, 1–68 y 1–69 se conservan como snapshots históricos y no se sobrescriben.
 
-## Investigaciones
+## Gobernanza — Fase 34
 
-Las fases históricas están organizadas por directorios `phase-XX-*`. La identificación futura usa número lógico + ruta exacta.
+Las tres rutas históricas con prefijo `phase-34-*` no se renombran. Sus alias son 34A (`grouping-invariance`), 34B (`path-support`) y 34R (`reconciliation`). Desde Fase 69 no se reutilizan números.
 
-### Nota de gobernanza — Fase 34
+## Hitos 64–70
 
-Existen tres directorios históricos con el prefijo `phase-34-*`. No se renombran para preservar Git e hipervínculos. Desde ahora:
-
-- `phase-34-grouping-invariance/` = **34A**;
-- `phase-34-path-support/` = **34B**;
-- `phase-34-reconciliation/` = **34R**.
-
-La siguiente fase nueva será Fase 69; no se reutilizarán números.
-
-## Hitos 46–68
-
-- `phase-46-saturation-degeneracy/`: degeneración microscópica exacta bajo una macro-relación set-valued.
-- `phase-47-counting-statistics/`: función generadora y estadística combinatoria condicionada.
-- `phase-48-symmetry-equiprobability/` a `phase-52-complement-duality/`: límites de simetría, projectividad y selección de medida.
-- `phase-53-minimal-dynamics/` a `phase-59-coupling-space/`: dinámica mínima, tiempo relacional y subdeterminación de acoplamientos.
-- `phase-60-genealogical-state/` a `phase-64-predictive-congruence/`: memoria, compresión algebraica y estado predictivo mínimo.
-- `phase-65-interaction-predictive-congruence/`: congruencia predictiva bajo protocolos de interacción.
-- `phase-66-response-depth-scaling/`: `d_*(1)=0`, `d_*(2)=0`, `d_*(3)=1`, `d_*(4)=2`; refuta cierre universal a primer orden en el dominio probado.
-- `phase-67-emergent-locality/`: construye localidad operacional y distancia derivada sin espacio previo; localidad física única y D=3 permanecen no derivados.
-- `phase-68-geometry-selection/`: muestra que las restricciones internas ensayadas no seleccionan D=3. Sus números de `summary.csv` están preservados, pero su productor no está presente; ver `REPRODUCIBILITY.md`.
+- Fase 64: congruencia predictiva mínima.
+- Fase 65: respuesta predictiva bajo interacción.
+- Fase 66: `d_*(1)=0`, `d_*(2)=0`, `d_*(3)=1`, `d_*(4)=2`; `d_*=1` universal refutado en aquel protocolo.
+- Fase 67: localidad operacional construible sin espacio previo; localidad física única y D=3 no derivadas.
+- Fase 68: filtros geométricos no seleccionan D=3; números históricos mantienen reserva de reproducibilidad.
+- Fase 69: con acciones etiquetadas, cinco familias exactas dieron `d_*=1` y `predictive_classes=microstates`; selección geométrica no derivada.
+- Fase 70: acciones cocientadas por órbitas de aristas de `Aut(G)` eliminan sobreidentificación; en cinco familias exactas `predictive_classes = microstate_orbits_under_Aut(G)`. El cubo 3D requiere `d_*^rel=2`; ciclo, 2D, árbol y completo requieren 1. D=3 sigue no derivada.
 
 ## Reproducibilidad
 
-Un resultado cuantitativo sin productor, protocolo suficientemente preciso o artefacto regenerable no se eleva por inferencia. Debe clasificarse como C3 archivado/no regenerable hasta recuperar o reconstruir explícitamente el protocolo como una investigación nueva.
+Un resultado cuantitativo sin productor/protocolo suficiente no se eleva por inferencia. Debe clasificarse como archivado/no regenerable hasta recuperar evidencia o abrir una reproducción nueva.
 
-En particular, Fase 68 conserva su no-go lógico, pero los valores exactos de `growth_dimension_estimate` no se consideran reproducidos desde el estado actual de esa fase.
+Fases 69 y 70 incluyen prerregistro, productor y resultados dentro de su propio directorio. Las instancias que exceden el límite exacto se marcan `NO_EJECUTADA_EXACT_LIMIT` y no se reemplazan silenciosamente por muestreo.
 
-## Regla de promoción
+## Estado científico
 
-Un resultado de este laboratorio puede ser correcto matemáticamente sin ser todavía una afirmación física de Omega Theory. La promoción requiere, como mínimo:
+El cuello de botella dominante sigue siendo la **subdeterminación**: múltiples medidas, costos, dinámicas, localidades y geometrías son compatibles con la estructura actual.
 
-- trazabilidad de premisas;
-- demostración o reproducibilidad correspondiente a su clase;
-- búsqueda explícita de contraejemplos;
-- estado epistemológico;
-- dependencia clara respecto de resultados anteriores;
-- auditoría separada;
-- decisión explícita de promoción.
+Fase 70 añade una dirección prometedora pero limitada: los cocientes por simetría pueden remover información espuria y revelar profundidad predictiva que el etiquetado absoluto ocultaba. Esto no selecciona todavía nuestro universo.
 
-## Estado del programa tras Fase 68
+## Secuencia de alto riesgo
 
-La prioridad ya no es aumentar fases combinatorias. El cuello de botella identificado es la **subdeterminación**: muchas dinámicas, medidas, leyes de tasa y geometrías siguen siendo compatibles con la ontología actual.
+1. separar simetría estática de información dinámica;
+2. reducir subdeterminación de dinámica/localidad;
+3. continuo, dimensión y causalidad;
+4. estructura lorentziana;
+5. amplitudes/quantum y Born;
+6. gravedad geométrica;
+7. gauge y materia;
+8. predicciones congeladas antes de observación.
 
-La secuencia de alto riesgo es:
+## Próxima fase autorizada
 
-1. romper/restringir la subdeterminación dinámica y geométrica;
-2. localidad/continuo/dimensión;
-3. causalidad y estructura lorentziana;
-4. amplitudes/quantum y regla de Born;
-5. gravedad como dinámica geométrica;
-6. gauge y materia;
-7. predicciones congeladas antes de comparación observacional.
+**Fase 71 — cociente predictivo vs cociente por automorfismos.**
 
-## Próximo bloque autorizado por el programa
+Debe intentar demostrar condiciones suficientes/necesarias para
 
-**Fase 69 — profundidad predictiva vs geometría.**
+`P_infty^rel = X / Aut(G)`
 
-Debe preguntar si una cantidad ya derivada independientemente, `d_*`, discrimina clases geométricas o exponentes de crecimiento sin introducir D=3 a mano.
+o encontrar el menor contraejemplo explícito. Debe distinguir qué información proviene de simetría y cuál de profundidad dinámica, sin introducir una dimensión objetivo.
 
-Cada bloque mayor cerrará explícitamente como `DERIVADO`, `NO DERIVADO/SUBDETERMINADO` o `REFUTADO EN EL MODELO`.
+Cada fase mayor cerrará explícitamente como `DERIVADO`, `SOPORTE ESTRUCTURAL`, `NO DERIVADO/SUBDETERMINADO` o `REFUTADO EN EL MODELO`.
