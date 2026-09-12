@@ -16,12 +16,13 @@ El flujo obligatorio es:
 2. identificar sólo las premisas ontológicas/canónicas realmente usadas;
 3. derivar sin introducir constantes observacionales, distribuciones, dimensionalidad o leyes por conveniencia;
 4. preregistrar las pruebas de alto riesgo antes de ejecutar;
-5. probar, buscar contraejemplos y ejecutar cálculos reproducibles;
+5. probar, buscar contraejemplos y ejecutar cálculos reproducibles cuando corresponda;
 6. conservar resultados positivos y negativos;
 7. declarar explícitamente subdeterminación;
-8. sólo después comparar con observación;
-9. no calibrar retrospectivamente para obtener el dato deseado;
-10. ningún resultado asciende al canon sin auditoría y decisión explícita posterior.
+8. congelar cualquier predicción física antes de mirar el dato pertinente;
+9. sólo después comparar con observación;
+10. no calibrar retrospectivamente para obtener el dato deseado;
+11. ningún resultado asciende al canon sin auditoría y decisión explícita posterior.
 
 ## Punto de partida
 
@@ -32,9 +33,9 @@ El flujo obligatorio es:
 
 ## Consolidación vigente
 
-- `OMEGA_SYNTHESIS_1_71.md` — síntesis vigente 1–71.
-- `OMEGA_DERIVATION_LEDGER_1_71.tsv` — ledger epistemológico vigente.
-- `PHASE_INDEX_1_71.md` — índice autoritativo y gobernanza de numeración.
+- `OMEGA_SYNTHESIS_1_73.md` — síntesis vigente 1–73.
+- `OMEGA_DERIVATION_LEDGER_1_73.tsv` — ledger epistemológico vigente.
+- `PHASE_INDEX_1_73.md` — índice autoritativo y gobernanza de numeración.
 - `BLOCK_01_REPOSITORY_SANITATION.md` — saneamiento previo a Fase 69.
 
 Las consolidaciones anteriores se preservan como snapshots históricos y no se sobrescriben.
@@ -43,49 +44,51 @@ Las consolidaciones anteriores se preservan como snapshots históricos y no se s
 
 Las tres rutas históricas con prefijo `phase-34-*` no se renombran. Sus alias son 34A (`grouping-invariance`), 34B (`path-support`) y 34R (`reconciliation`). Desde Fase 69 no se reutilizan números.
 
-## Hitos 64–71
+## Hitos 64–73
 
 - Fase 64: congruencia predictiva mínima.
 - Fase 65: respuesta predictiva bajo interacción.
-- Fase 66: `d_*(1)=0`, `d_*(2)=0`, `d_*(3)=1`, `d_*(4)=2`; `d_*=1` universal refutado en aquel protocolo.
+- Fase 66: escalamiento de profundidad; `d_*(4)=2` en aquel protocolo.
 - Fase 67: localidad operacional construible sin espacio previo; localidad física única y D=3 no derivadas.
 - Fase 68: filtros geométricos no seleccionan D=3; números históricos mantienen reserva de reproducibilidad.
-- Fase 69: con acciones etiquetadas, cinco familias exactas dieron `d_*=1` y `predictive_classes=microstates`; selección geométrica no derivada.
-- Fase 70: acciones cocientadas por órbitas de aristas de `Aut(G)` eliminan sobreidentificación; en cinco familias exactas `predictive_classes = microstate_orbits_under_Aut(G)`. El cubo 3D requiere `d_*^rel=2`; ciclo, 2D, árbol y completo requieren 1. D=3 sigue no derivada.
-- Fase 71: en las 30 clases conectadas no isomorfas con `2<=n<=5`, `P_infty^rel = X/Aut(G)` exactamente. Además, el Teorema 71-A demuestra para cualquier grafo finito que estados relacionados por `Aut(G)` no pueden separarse predictivamente bajo este protocolo. La recíproca universal permanece abierta.
+- Fase 69: acciones etiquetadas sobreidentifican microestados; selección geométrica no derivada.
+- Fase 70: acciones relacionales por órbitas eliminan parte de esa fuga y producen coarse-graining genuino dentro del protocolo.
+- Fase 71: `P_infty^rel = X/Aut(G)` en 30/30 clases conectadas con `2<=n<=5`; invariancia bajo `Aut(G)` derivada; recíproca universal abierta.
+- Fase 72: la invariancia representacional es ontológicamente necesaria, pero la separabilidad completa del protocolo no está derivada. Fases 70–71 quedan correctamente clasificadas como resultados condicionales al descriptor/álgebra elegidos.
+- Fase 73: desde potencialidad/accesibilidad se obtiene soporte dirigido de continuaciones, alcanzabilidad e historia causal acíclica; pero `accesibilidad != selección`. No se deriva una regla única de realización, probabilidad, tasa ni cardinalidad física de potencialidad.
 
-## Reproducibilidad
+## Reproducibilidad y trazabilidad
 
-Un resultado cuantitativo sin productor/protocolo suficiente no se eleva por inferencia. Las Fases 69–71 incluyen prerregistro, productor y resultados dentro de su propio directorio.
+Un resultado cuantitativo sin productor/protocolo suficiente no se eleva por inferencia. Cuando la fase es puramente deductiva, debe incluir prerregistro de premisas/prohibiciones, demostración y cierre epistemológico.
 
-Fase 71 usa enumeración exhaustiva de clases conectadas hasta cinco vértices; no amplía retrospectivamente el dominio después de observar éxito.
+Los resultados negativos se preservan con el mismo rango documental que los positivos.
 
 ## Estado científico
 
-El cuello de botella dominante sigue siendo la **subdeterminación**. Fases 70–71 aislaron una estructura matemática más precisa:
+El cuello de botella dominante sigue siendo la **subdeterminación**, ahora localizado a un nivel más primitivo:
 
-`microestado etiquetado -> cociente por simetría -> estado predictivo relacional`.
+`compatibilidad -> accesibilidad -> realización -> historia`.
 
-En todos los sustratos pequeños probados, los dos últimos niveles coinciden exactamente. La dirección `misma órbita => misma clase predictiva` ya es teorema; falta saber cuándo vale la recíproca.
+La ontología vigente da contenido a compatibilidad, accesibilidad e historia, pero todavía no selecciona de manera única la realización cuando hay ramificación.
 
-Esto no selecciona todavía una geometría, una dimensión ni una dinámica física única.
+Por eso aún no existe una dinámica física fundamental única derivada. Tampoco se derivan todavía Born, Lorentz, GR, D=3 ni el contenido de materia/gauge del Standard Model.
 
 ## Secuencia de alto riesgo
 
-1. separar simetría estática de información dinámica;
-2. caracterizar separabilidad de órbitas bajo acciones relacionales;
-3. reducir subdeterminación de dinámica/localidad;
-4. continuo, dimensión y causalidad;
+1. derivar o refutar una regla ontológica de realización;
+2. sólo después investigar medida/probabilidad/tasas emergentes;
+3. reducir subdeterminación de localidad y continuo;
+4. dimensión y causalidad física;
 5. estructura lorentziana;
 6. amplitudes/quantum y Born;
 7. gravedad geométrica;
 8. gauge y materia;
-9. predicciones congeladas antes de observación.
+9. predicciones físicas congeladas antes de observación.
 
 ## Próxima fase autorizada
 
-**Fase 72 — separabilidad de órbitas / búsqueda de contraejemplo fuera de `n<=5`.**
+**Fase 74 — restricciones ontológicas sobre la realización.**
 
-Debe preregistrarse independientemente. La prioridad es derivar condiciones suficientes para que órbitas distintas sean separables por protocolos relacionales y diseñar una búsqueda dirigida a estructuras que violen esas condiciones.
+Debe probar si continuidad, composición, potencialidad e identidad/historia restringen la selección entre continuaciones accesibles sin introducir a mano una regla probabilística, un principio de mínima acción, una tasa o una ley tomada de la física conocida.
 
-Cada fase mayor cerrará explícitamente como `DERIVADO`, `SOPORTE ESTRUCTURAL`, `NO DERIVADO/SUBDETERMINADO` o `REFUTADO EN EL MODELO`.
+Si esas premisas no bastan, la fase debe cerrar explícitamente con un no-go y conservarlo.
