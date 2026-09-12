@@ -1,0 +1,22 @@
+item	epistemic_class	premises_or_scope	status	verdict
+canonical-base	C0	main@6a3fad9c36a4795899bf0cbe1e00a608684ee0a5	fixed	Canonical base remains untouched
+support-selection-phase73	C1	Gamma(x) accessibility support	derived	accessibility does not determine realization
+phase74-relational-covariance	C1	relational ontology; representation symmetries	derived	physical realization law cannot depend on non-ontological labels
+phase74-deterministic-selector-obstruction	C1	state stabilizer acts without fixed point on accessible alternatives	derived	no single-valued deterministic selector can be fully covariant there
+phase75-structural-indeterminacy	C1/C5	selector obstruction without added probability	derived-negative	absence of selector does not imply physical randomness
+phase75-closure-trilemma	C1	persistent symmetric obstruction	derived	future theory must enrich state, abandon individual deterministic selector, or demote representative-level ontology
+phase75-enrichment-necessary	C5	current ontology	refuted	enrichment can solve degeneracy but is not uniquely necessary
+phase75-orbit-physical-necessary	C5	current ontology	refuted	quotient/orbit representation is sufficient in some cases but not forced
+phase75-indeterminism-necessary	C5	current ontology	refuted	no-selector does not force fundamental indeterminism
+phase76-history-subgroup	C1	pi(h)=x; history contains additional causal/genealogical structure	derived	G_h is a subgroup of G_x
+phase76-history-strict-reduction	C1	a symmetry of x fails to preserve h	derived	G_h < G_x and apparent configurational degeneracy can disappear
+phase76-fixed-point-criterion	C1	accessible alternatives A and residual stabilizer G_h	derived	if Fix_A(G_h) becomes nonempty while Fix_A(G_x) was empty, history lifts selector obstruction
+phase76-history-universal-sufficiency	C5	all possible complete histories	refuted	symmetric complete histories can retain no-fixed-point action on future alternatives
+phase76-no-return-selection	C5	strict history extension	not-derived	irreversibility records realized history but does not generally select future branch
+phase76-new-variables-necessity	C5	current ontology	refuted-as-universal	use full history first; only residual obstructions motivate extensions
+fundamental-dynamics	C5	current ontology/research corpus	not-derived	state sufficiency and selection principle remain open
+born-rule	C5	current framework	not-derived	no physical probability/amplitude rule
+gravitational-dynamics	C5	current framework	not-derived	no GR/equivalence derivation
+lorentz	C5	current framework	not-derived	no Lorentz structure
+D3-selection	C5	current framework	not-derived	no unique dimension
+standard-model	C5	current framework	not-derived	no gauge/matter derivation
