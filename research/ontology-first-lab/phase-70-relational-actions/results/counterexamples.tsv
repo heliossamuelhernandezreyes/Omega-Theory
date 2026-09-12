@@ -1,0 +1,7 @@
+graph_a	graph_b	shared_d_star_rel	edge_orbit_sizes_a	edge_orbit_sizes_b	predictive_classes_a	predictive_classes_b
+cycle_6	grid2_2x3	1	6	1,2,4	13	48
+cycle_6	binary_tree_depth2	1	6	2,4	13	21
+cycle_6	complete_5	1	6	10	13	34
+grid2_2x3	binary_tree_depth2	1	1,2,4	2,4	48	21
+grid2_2x3	complete_5	1	1,2,4	10	48	34
+binary_tree_depth2	complete_5	1	2,4	10	21	34
