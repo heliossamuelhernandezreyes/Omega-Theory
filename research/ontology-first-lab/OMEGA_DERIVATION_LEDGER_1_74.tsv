@@ -1,0 +1,29 @@
+item	epistemic_class	premises_or_scope	status	verdict
+canonical-base	C0	main@6a3fad9c36a4795899bf0cbe1e00a608684ee0a5	fixed	Canonical base remains untouched
+positive-composition-exponential	C1	positive continuous composable response	derived	R(u)=exp(-su); branch weights not implied
+history-no-return	C1	history extends by nonempty update	derived	configuration return != ontological return
+potentiality-accessibility	C0/C1	canonical definition	fixed/translated	potentiality is effective accessibility; not probability energy or cardinality by definition
+support-selection-phase73	C1	Gamma(x) accessibility support	derived	accessibility does not determine realization
+reachability-phase73	C1	finite paths in accessibility relation	derived	finite reachability is transitive; reflexive if empty path admitted
+potentiality-cardinality-phase73	C5	Gamma(x)	not-derived	|Gamma| or log|Gamma| not physical potentiality without invariant bridge
+probability-from-support-phase73	C5	same support admits multiple distributions	not-derived	no equiprobability Gibbs or Born
+absolute-rate-phase73	C5	continuation order only	not-derived	monotone reparameterizations preserve order while changing rates
+phase74-admissibility	C1	realization rule relative to Gamma(x)	derived	realized continuation must lie in accessible support
+phase74-relational-covariance	C1	relational ontology; representation symmetries	derived	physical realization law cannot depend on non-ontological labels; F(gx)=gF(x) when deterministic selector exists
+phase74-deterministic-selector-obstruction	C1	gx=x and stabilizer acts without fixed point on accessible alternatives	derived	no single-valued deterministic selector can be fully covariant under that symmetry
+phase74-symmetry-equiprobability	C5	relational covariance	not-derived	absence of covariant deterministic selector does not imply equal probabilities or physical randomness
+phase74-continuity-branch-selection	C5	R(u+v)=R(u)R(v)	not-derived	exponential composable response cannot be reused as branch measure without bridge
+phase74-history-selection	C5	strict genealogical extension	not-derived	history records chosen continuation but does not generally select it
+phase74-sequential-composition	C5	admissible deterministic sections or abstract kernels	not-derived	multiple composable laws share same support and constraints
+phase74-unique-dynamics	C5	current ontology through phase74	refuted-under-current-premises	branching permits inequivalent admissible laws; unique realization requires additional derived structure
+phase72-representational-invariance	C1	relational representation + covariant observations/actions	derived	predictive distinctions cannot depend on pure relabeling
+phase72-complete-separability	C5	current canonical ontology	not-derived	complete observability/controlability not guaranteed
+phase71-aut-invariance	C1	phase70 relational protocol	derived	Aut(G)-equivalent microstates remain predictively equivalent
+phase71-orbit-equality-n5	C2	30 connected simple unlabeled graphs n<=5	supported-exact-in-domain	P_infty^rel equals X/Aut(G) in 30/30
+D3-selection	C5	current locality/geometry work	not-derived	no unique dimension
+born-rule	C5	current framework	not-derived	no amplitudes interference or Born
+lorentz	C5	current framework	not-derived	no Lorentz structure
+quantum	C5	current framework	not-derived	no fundamental quantum formalism
+gravity	C5	current framework	not-derived	no GR/equivalence derivation
+standard-model	C5	current framework	not-derived	no SU3xSU2xU1 matter structure
+fundamental-dynamics	C5	current ontology/research corpus	not-derived	constraints narrowed but selection principle absent
