@@ -1,0 +1,8 @@
+id	phase	claim	status	validation	limits
+87-A	87	Local recombination closure is definable from sibling covers and unique minimal common uppers	DERIVED	FORMAL	Relative to chosen region/order
+87-B	87	If every new common upper lies above existing join c, uniqueness is preserved	DERIVED_CONDITIONAL	FORMAL	Sufficient, not shown necessary
+87-C	87	A future branch can destroy previous join uniqueness without rewriting past relations	REFUTED_STRONG_FORM	FORMAL+COMPUTATIONAL	Refutes universal monotonicity
+87-D	87	Finite posets contain both locally closed and non-closed structures	NUMERICALLY_VERIFIED	COMPUTATIONAL	n<=5 fixed-order enumeration
+87-E	87	Unique joins remain unique under all admissible future extensions	REFUTED	COMPUTATIONAL	n=4,5 maximal future-extension laboratory
+87-F	87	Local recombination closure already defines physical algebra	NOT_DERIVED	FORMAL	No physical bridge
+87-G	87	Observational comparison	OPEN	NOT_APPLICABLE	No derived mapping to observables
