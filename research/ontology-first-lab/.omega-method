@@ -1,0 +1,15 @@
+OMEGA RESEARCH EXECUTION CLAUSE — INTERNAL
+
+For every new research phase, before accepting a conclusion:
+1. REPOSITORY ARCHAEOLOGY: inspect relevant prior results, assumptions, regimes, negative results and circumstances already recorded in the repository.
+2. ONTOLOGY-FIRST DERIVATION: equations/structures must follow from the current ontology and explicitly admitted bridges only. Never tune a law, parameter, dimension, probability, observable or mechanism to recover known physics.
+3. COMPUTATIONAL VALIDATION: whenever the claim has a legitimate computable finite/numerical realization, implement executable tests before closure. Preserve code, parameters, raw/derived results, counterexamples and PASS/FAIL. For genuinely formal/non-computable claims record NOT_APPLICABLE with reason; never fabricate numerical confirmation.
+4. NATURAL RESULT FREEZE: record the untuned result before consulting the target observation used for comparison.
+5. EXTERNAL COMPARISON: compare the frozen consequence with relevant empirical evidence, established constraints, or live scientific uncertainties. Observation is a test, never an input used to retrofit the derivation.
+6. VERDICT/CORRECTION: classify DERIVED, NUMERICALLY_VERIFIED, OBSERVATIONALLY_COMPARED, REFUTED, UNDERDETERMINED or OPEN as appropriate. If disagreement occurs, preserve the failed result and trace the failing ontology/bridge; do not overwrite history.
+7. ATLAS: index each useful result in a searchable Omega Atlas with ontology source, equations, assumptions, validity regime, code/results, numerical status, observational comparison, verdict, negative results, related phases and commit references.
+
+Mandatory flow:
+REPO -> ONTOLOGY -> DERIVATION -> COMPUTATION -> NATURAL RESULT -> EVIDENCE -> VERDICT -> ATLAS.
+
+This file is methodological infrastructure, not physical ontology and not evidence for Omega.
