@@ -1,0 +1,13 @@
+id	phase	claim	status	basis
+83-A	83	Given sectors and explicit admissible variation family V, directed future-dependence graph G_F,V is well-defined	DERIVED_CONDITIONAL	definition on future-type sensitivity
+83-B	83	Strong future-support independence removes cross-dependence edges for factorization-preserving variations	DERIVED_CONDITIONAL	Phase82 factorization
+83-C	83	Future dependence may be asymmetric	DERIVED_BY_COUNTERMODEL	directed structural example
+83-D	83	Direct future dependence need not be transitive	DERIVED_BY_COUNTERMODEL	A->B and B->C without A->C
+83-E	83	Current ontology does not universally select a unique admissible variation family V	UNDERDETERMINATION	two ontology-compatible variation families yield different graphs
+83-F	83	Internal accessibility comparisons can detect structural co-variation but do not uniquely identify causal direction	STRUCTURAL_RESULT	common-ancestor comparison
+83-G	83	Present projection can hide history-mediated cross-dependence	DERIVED_BY_COUNTERMODEL	persistent genealogical invariant
+83-H	83	Future-dependence graph is not yet physical spacetime causality	NOT_DERIVED	missing intrinsic V realization geometry propagation bound
+83-I	83	A unique fundamental influence graph follows from current ontology	REFUTED_IN_GENERAL	No-go83-E
+83-J	83	Direct influence is necessarily transitive	REFUTED_IN_GENERAL	No-go83-D
+83-K	83	Probability or statistical causation is derived	NOT_DERIVED	no physical measure
+83-L	83	Spatial locality metric dimension or finite propagation speed is derived	NOT_DERIVED	outside current premises
