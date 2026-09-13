@@ -1,0 +1,22 @@
+phase	claim	status	basis
+73	accessibility does not select realization	C1_DERIVED	countermodels
+74	relational covariance constrains realization law	C1_DERIVED	relational ontology
+74	exact symmetry can obstruct deterministic covariant representative selector	C1_DERIVED	fixed-point theorem
+75	absence of deterministic selector does not imply physical randomness	C1_DERIVED	countermodels
+76	full-history stabilizer is subgroup of present-state stabilizer	C1_DERIVED	group action on enriched state
+76	history can remove apparent configurational degeneracy	C1_DERIVED	fixed-point criterion
+77	future-isomorphism is an equivalence relation	C1_DERIVED	isomorphism properties
+77	S_F=Hist/~F preserves complete admissible-future type	C1_DERIVED_BY_DEFINITION	future structure
+77	S_F minimal relative to exact preservation of future type	C1_CONDITIONAL_THEOREM	factorization argument
+77	state sufficient for possibilities does not determine realization law	C1_DERIVED	countermodel
+78	~F congruent with extension pattern	C1_DERIVED	rooted future isomorphism maps immediate extensions to equivalent successors
+78	quotient support relation ->_F exists	C1_DERIVED	congruence of ~F
+78	accessibility support closes at first order on S_F	C1_DERIVED	Gamma_F(s) depends only on future-equivalence class
+78	finite exact representation iff |S_F| finite	C1_THEOREM	bidirectional cardinality criterion
+78	finite-state does not imply finite-window memory	C1_DERIVED	genealogical counterexample
+78	universal finiteness of S_F	C5_NOT_DERIVED_REFUTED_AS_NECESSARY	infinite-index countermodel
+78	universal bounded recent-history memory	C5_NOT_DERIVED_REFUTED_AS_NECESSARY	arbitrarily long genealogical dependence countermodel
+78	continuity/composition imply forgetting or mixing	C5_NOT_DERIVED	current axioms do not constrain memory contraction
+78	probabilistic Markov property	C5_NOT_DERIVED	no physical measure/kernel
+78	computable/local finite physical state	C5_NOT_DERIVED	no computability/locality theorem
+78	unique fundamental dynamics	C5_NOT_DERIVED	selection remains underdetermined
