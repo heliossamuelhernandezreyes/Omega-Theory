@@ -1,0 +1,12 @@
+rule	class	count
+and_01	interaction_minimum	4
+and_01	silent	11
+or_01	multiple_minima	4
+or_01	silent	3
+or_01	unique_singleton	8
+parity	multiple_minima	4
+parity	silent	7
+parity	unique_singleton	4
+silent	silent	15
+single_0	silent	7
+single_0	unique_singleton	8
