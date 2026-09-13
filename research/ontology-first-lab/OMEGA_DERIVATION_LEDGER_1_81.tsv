@@ -1,0 +1,16 @@
+phase	claim	status	basis
+77	S_F=Hist/~F preserves complete admissible-future type	C1_DERIVED_BY_DEFINITION	future isomorphism
+78	future equivalence closes support on S_F	C1_DERIVED	congruence with extension
+78	finite exact representation iff |S_F| finite	C1_CONDITIONAL_THEOREM	quotient cardinality
+79	historical relevance need not be monotone	C1_DERIVED	fusion/persistence countermodels
+80	strong future confluence is sufficient for contraction	C1_CONDITIONAL_THEOREM	structural argument
+80	uniform causal erasure is sufficient for bounded predictive memory	C1_CONDITIONAL_THEOREM	factorization argument
+81	high accessibility does not imply short memory	C1_DERIVED	countermodel with persistent invariant
+81	one-step support isomorphism does not imply complete future equivalence	C1_DERIVED	depth>1 countermodel
+81	constant local support does not imply finite S_F or bounded memory	C1_DERIVED	recursive genealogy countermodel
+81	R(u)=exp(-su) does not imply predictive saturation	C1_DERIVED	missing bridge/countermodel compatibility
+81	uniform saturation of future types implies contraction	C1_CONDITIONAL_THEOREM	definition plus factorization
+81	potentiality/accessibility forces predictive saturation	C5_NOT_DERIVED	countermodels 81-A to 81-C
+81	universal memory horizon N	C5_NOT_DERIVED	no ontological bound
+81	mixing/ergodicity/dissipation	C5_NOT_DERIVED	forbidden imports
+81	unique fundamental dynamics	C5_NOT_DERIVED	underdetermination remains
