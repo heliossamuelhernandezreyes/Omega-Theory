@@ -1,0 +1,12 @@
+id	phase	claim	status	basis
+84-A	84	Coverage relation defines order-theoretic irreducibility when present	DERIVED_CONDITIONAL	definition in historical extension order
+84-B	84	Sibling coverage extensions provide an intrinsic contrast class without external intervention	DERIVED_CONDITIONAL	common ancestor plus coverage
+84-C	84	Sibling-contrast future sensitivity is invariant under relevant relational isomorphisms	DERIVED_CONDITIONAL	isomorphism preserves order and future type
+84-D	84	Historical order universally has coverage atoms	REFUTED_IN_GENERAL	dense-order countermodel
+84-E	84	Coverage means physically small change	REFUTED_IN_GENERAL	order irreducibility does not bound structural magnitude
+84-F	84	Sibling contrast uniquely isolates causal sector	REFUTED_IN_GENERAL	multi-difference sibling countermodel
+84-G	84	Sibling coverage contrasts exhaust all admissible future-dependence tests	REFUTED_IN_GENERAL	longer-scale dependence countermodel
+84-H	84	V_cov is a canonical partial variation family where coverage exists	DERIVED_CONDITIONAL	constructed from order alone
+84-I	84	Universal metric of change is derived	NOT_DERIVED	no norm/distance primitive
+84-J	84	Unique minimal causal support is derived	NOT_DERIVED	separability unresolved
+84-K	84	Physical causality/locality follows from coverage contrast	NOT_DERIVED	missing realization geometry propagation
