@@ -1,0 +1,6 @@
+section	n	posets	unique_join_pairs_or_pairs	extension_cases	preserved	no_recombination_or_destroyed	multiple_joins	all_unique_posets
+posets	3	7	1	NA	NA	1	0	0
+posets	4	40	19	NA	NA	18	0	1
+posets	5	357	368	NA	NA	334	1	21
+future_extensions	4	NA	1	6	5	1	NA	NA
+future_extensions	5	NA	33	322	265	57	NA	NA
