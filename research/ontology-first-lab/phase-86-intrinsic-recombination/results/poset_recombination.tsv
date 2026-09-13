@@ -1,0 +1,5 @@
+n	unique_labeled_posets_fixed_order	sibling_pairs	no_recombination	unique_minimal_join	multiple_minimal_joins
+2	2	0	0	0	0
+3	7	1	1	0	0
+4	40	19	18	1	0
+5	357	368	334	33	1
