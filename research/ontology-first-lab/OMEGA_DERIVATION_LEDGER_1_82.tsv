@@ -1,0 +1,17 @@
+phase	claim	status	basis
+77	future-isomorphism quotient preserves admissible-future type	C1_DERIVED_BY_DEFINITION	future structure
+78	future equivalence is congruent with extension	C1_DERIVED	rooted future isomorphism
+78	finite exact representation iff future quotient finite	C1_CONDITIONAL_THEOREM	quotient cardinality
+79	historical relevance need not be monotone	C1_DERIVED	fusion and persistence countermodels
+80	strong future confluence suffices for contraction	C1_CONDITIONAL_THEOREM	structural argument
+80	uniform causal erasure suffices for bounded predictive memory	C1_CONDITIONAL_THEOREM	dependence elimination
+81	high accessibility does not imply short memory	C1_DERIVED	countermodel
+81	one-step support isomorphism does not imply complete future equivalence	C1_DERIVED	depth counterexample
+81	uniform saturation of future types implies bounded relevance	C1_CONDITIONAL_THEOREM	future-type collapse
+82	strong support independence implies asynchronous future factorization	C1_CONDITIONAL_THEOREM	product construction
+82	joint future quotient is determined by marginal classes when sector identity is separable	C1_CONDITIONAL_THEOREM	factor quotient
+82	cross-memory can be eliminated under strong support independence	C1_CONDITIONAL_THEOREM	sector autonomy
+82	present descriptive disconnection implies future independence	C1_REFUTED	cross-history invariant countermodel
+82	support factorization implies probabilistic independence	C5_NOT_DERIVED	no probability measure
+82	universal decomposition into independent sectors	C1_REFUTED_IN_UNIVERSAL_FORM	compatible coupled countermodels
+82	physical locality	C5_NOT_DERIVED	no distance dimension or finite propagation derived
