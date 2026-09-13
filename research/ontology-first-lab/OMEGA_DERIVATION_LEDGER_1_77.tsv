@@ -1,0 +1,21 @@
+phase	claim	status	basis
+73	accessibility does not select realization	C1_DERIVED	countermodels
+74	candidate realization law must respect admissibility	C1_DERIVED	definition/consistency
+74	relational covariance constrains realization law	C1_DERIVED	relational ontology
+74	exact symmetry can obstruct deterministic covariant representative selector	C1_DERIVED	fixed-point theorem
+75	absence of deterministic selector does not imply physical randomness	C1_DERIVED	countermodels
+75	enrichment can remove degeneracy but is not uniquely required	C1_DERIVED	countermodels
+75	orbit realization is not uniquely required	C1_DERIVED	countermodels
+75	physical indeterminism is not uniquely required	C1_DERIVED	countermodels
+76	full-history stabilizer is subgroup of present-state stabilizer	C1_DERIVED	group action on enriched state
+76	history can remove apparent configurational degeneracy	C1_DERIVED	fixed-point criterion
+76	history is not universally sufficient	C1_DERIVED	countermodel
+76	non-return does not select future continuation	C1_DERIVED	branching countermodel
+77	future-isomorphism is an equivalence relation	C1_DERIVED	isomorphism properties
+77	S_F=Hist/~F preserves complete admissible-future type	C1_DERIVED_BY_DEFINITION	future structure
+77	S_F is minimal relative to exact preservation of future type	C1_CONDITIONAL_THEOREM	factorization argument
+77	a sufficient possibility-state does not determine realization law	C1_DERIVED	countermodel with inequivalent laws
+77	S_F is physically fundamental	C5_NOT_DERIVED	no ontological selection of quotient as physical primitive
+77	S_F is finite/computable/Markovian	C5_NOT_DERIVED	complete future may be infinite/noncomputable
+77	unique fundamental dynamics	C5_NOT_DERIVED	underdetermination remains
+77	probability/Born	C5_NOT_DERIVED	no measure or amplitude derived
