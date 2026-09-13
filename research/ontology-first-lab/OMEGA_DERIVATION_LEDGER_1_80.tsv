@@ -1,0 +1,22 @@
+phase	claim	status	basis
+77	future-isomorphism defines equivalence	C1_DERIVED	isomorphism properties
+77	S_F preserves complete admissible-future type	C1_DERIVED_BY_DEFINITION	future structure
+77	S_F determines unique realization law	C5_NOT_DERIVED	countermodel
+78	future equivalence is congruent with extension	C1_DERIVED	rooted future isomorphism
+78	support closes on S_F	C1_DERIVED	quotient relation
+78	finite exact representation iff |S_F| finite	C1_CONDITIONAL_THEOREM	state-index criterion
+78	bounded recent-memory window universally exists	C5_NOT_DERIVED	countermodels
+79	distinct future classes can later synchronize	C1_DERIVED	common future-class construction
+79	genealogical identity implies eternal predictive distinction	REFUTED	fusion countermodel
+79	all historical distinctions must eventually disappear	REFUTED	persistent-invariant countermodel
+79	R(u)=exp(-su) implies forgetting	REFUTED	independent persistent-memory model
+80	common reachable class is sufficient for inevitable synchronization	REFUTED	branching countermodel
+80	finite S_F implies contraction	REFUTED	disjoint recurrent support countermodel
+80	acyclic/no-return structure implies contraction	REFUTED	permanent branching countermodel
+80	strong future confluence implies structural effective contraction	C1_CONDITIONAL_THEOREM	accessibility theorem
+80	uniform causal erasure of all relevant historical invariants implies bounded effective predictive memory	C1_CONDITIONAL_THEOREM	dependency elimination
+80	continuity and composition force causal erasure	REFUTED	persistent-invariant + exponential-response countermodel
+80	strong confluence holds physically	C5_NOT_DERIVED	no ontological derivation
+80	universal forgetting horizon exists	C5_NOT_DERIVED	no ontological bound
+80	metric contraction/mixing/ergodicity	C5_NOT_DERIVED	metric/probability absent
+80	unique fundamental dynamics	C5_NOT_DERIVED	selection problem remains
