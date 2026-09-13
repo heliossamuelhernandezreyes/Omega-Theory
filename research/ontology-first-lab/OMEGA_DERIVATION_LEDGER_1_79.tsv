@@ -1,0 +1,18 @@
+phase	claim	status	basis
+77	S_F=Hist/~F preserves complete admissible-future type	C1_DERIVED_BY_DEFINITION	future isomorphism quotient
+77	S_F determines unique realization law	C5_NOT_DERIVED	countermodel
+78	future equivalence is congruent with extension	C1_DERIVED	rooted future isomorphism
+78	Gamma_F(s) depends only on current S_F class	C1_DERIVED	quotient closure
+78	finite exact state iff |S_F| finite	C1_CONDITIONAL_THEOREM	quotient cardinality
+78	uniform finite memory window	C5_NOT_DERIVED	countermodels
+78	continuity/composition imply forgetting	C5_NOT_DERIVED	no bridge
+79	distinct future classes may have equivalent later extensions	C1_DERIVED	constructive countermodel
+79	genealogical identity forbids future synchronization	C1_REFUTED	fusion countermodel
+79	universal historical contraction	C1_REFUTED	persistent-memory countermodel
+79	persistent memory compatible with ontology	C1_DERIVED_COMPATIBILITY	preserved relational invariant construction
+79	preserved historical invariant affecting future accessibility sustains distinction	C1_CONDITIONAL_THEOREM	invariant criterion
+79	common reachable future class gives structural synchronization	C1_CONDITIONAL_THEOREM	reachability criterion
+79	relevance of history is universally monotone	C1_REFUTED	fusion/persistence/reappearance cases
+79	exponential response R=exp(-su) implies exponential forgetting	C5_NOT_DERIVED	response law lacks memory-contraction bridge
+79	mixing/ergodicity/attractor	C5_NOT_DERIVED	no corresponding premise
+79	unique fundamental dynamics	C5_NOT_DERIVED	selection gap remains
