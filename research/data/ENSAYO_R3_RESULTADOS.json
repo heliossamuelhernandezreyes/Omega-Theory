@@ -1,0 +1,70 @@
+{
+  "status": "PASS: ordinal toy identities; NOT prediction or validation of Omega",
+  "uniform_microchannel_postulate": true,
+  "no_dimensional_time_used": true,
+  "physical_time_derived": false,
+  "experiments": {
+    "symmetric": {
+      "exact_A_over_B": 1.0,
+      "sample_A_over_B": 0.99976669,
+      "counts": {
+        "A": 29996,
+        "B": 30003
+      }
+    },
+    "more_A_microchannels": {
+      "exact_A_over_B": 1.5,
+      "sample_A_over_B": 1.50083361,
+      "counts": {
+        "A": 36008,
+        "B": 23992
+      }
+    },
+    "restricted_A": {
+      "exact_A_over_B": 0.5,
+      "sample_A_over_B": 0.49795276,
+      "counts": {
+        "A": 19945,
+        "B": 40054
+      }
+    },
+    "duplicated_label": {
+      "exact_A_over_B": 2.0,
+      "sample_A_over_B": 1.98028015,
+      "counts": {
+        "A": 39867,
+        "B": 20132
+      }
+    }
+  },
+  "duplicate_after_explicit_quotient_exact_A_over_B": 1.0,
+  "spectator_A_over_B": 1.47167244,
+  "spectator_fraction_updates_A": 0.19829167,
+  "same_channel_structure_distinct_weights": {
+    "uniform_A_over_B": 1.5,
+    "alternative_A_over_B": 0.375
+  },
+  "independent_poset_measures": {
+    "allowed_linear_extensions": [
+      "A_before_B",
+      "B_before_A"
+    ],
+    "model_1": {
+      "A_before_B": 0.1,
+      "B_before_A": 0.9
+    },
+    "model_2": {
+      "A_before_B": 0.9,
+      "B_before_A": 0.1
+    },
+    "same_order_structure": true,
+    "measure_not_fixed_by_poset": true
+  },
+  "limitations": [
+    "Equal prior microchannel weights are an additional postulate",
+    "Microchannel equivalence and physical distinguishability are not determined",
+    "Changing channel bookkeeping can fake a clock shift",
+    "Global ordinal update indices are not a physical reference clock",
+    "No Lorentz invariance, metric, mass or gravitational dynamics derived"
+  ]
+}
