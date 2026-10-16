@@ -4,7 +4,9 @@
 
 ## Intuición del autor, preservada
 
-El núcleo de un agujero negro no estaría ontológicamente inmóvil: seguiría actualizándose pero con ritmo casi cero, dando apariencia de eternidad y produciendo hipotéticamente radiación muy débil. Las señales luminosas que escapan de la región exterior muy compacta llegan enormemente corridas al rojo sin cambiar la velocidad local de la luz. Lo relevante de la «asfixia» sería la continuidad local persistentemente restringida y su casi total incomunicabilidad exterior.
+**Aclaración posterior del autor:** el calificativo «casi» era esencial: desde la perspectiva de un observador externo, un proceso fuertemente compacto parece actualizarse a un ritmo mínimo; no se estaba postulando que el tiempo propio del material que cae se detenga. El autor conjetura que la comparación entre relojes depende de la *potencialidad del observador*. En esta fase, «potencialidad del observador» es un concepto ontológico sin identificación cuantitativa independiente con el potencial gravitatorio físico. La idea de un núcleo con radiación local tenue sigue siendo una hipótesis sin acceso observacional.
+
+Desde el exterior, las señales luminosas emitidas **fuera** del horizonte pueden llegar enormemente corridas al rojo sin cambiar la velocidad local de la luz. Dentro del horizonte, las señales clásicas no llegan al infinito. Lo relevante de la «asfixia» es distinguir continuidad local de comunicabilidad exterior y definir rigurosamente qué significa comparar tasas entre dos observadores.
 
 **Separación indispensable:** la primera frase es una **hipótesis física nueva no verificada**, mientras que el corrimiento al rojo desde fuentes situadas *fuera* del horizonte, la inescapabilidad clásica desde dentro y la constancia de c local son **resultados conocidos de relatividad**.
 
@@ -82,3 +84,26 @@ Para un observador radial de prueba que partió del reposo en infinito, en Schwa
 Verificador autocontenido: [scripts/check_omega_clock_horizon.py](../scripts/check_omega_clock_horizon.py). Cálculo algebraico de tiempo propio y redshift e ilustración de positividad sobre un camino finito; prueba dentro de GR conocida, no derivación de Omega.
 
 **Fuentes de referencia:** Universidad de Colorado/JILA, hoja de problemas relativistas, https://jila.colorado.edu/~ajsh/courses/astr3740_04/prob4.html ; NASA FAQ, https://science.nasa.gov/apod/frequently-asked-questions-faqs-on-black-holes/ .
+
+
+## Adenda: comparación controlada de igual masa con diferente compactación
+
+El ejemplo propuesto por el autor es una **supernova extendida y un agujero negro pequeño de la misma masa**. Una supernova es una explosión no estacionaria, y un agujero negro no tiene superficie estática: la comparación algebraica correcta se hace entre **relojes estacionarios** situados en regiones exteriores a dos sistemas esféricos idealizados de igual masa.
+
+Para un espacio-tiempo exterior de Schwarzschild con \(r>r_s=2GM/c^2\) y un reloj estacionario,
+
+\[
+\alpha(r):=\frac{d\tau(r)}{dt_\infty}=\sqrt{1-\frac{r_s}{r}}.
+\]
+
+Para \(M=10M_\odot\), \(r_s\approx29.53\) km. Reloj lejano en \(r\to\infty\):
+
+- Fuente extendida, reloj hipotético en \(r=1000r_s\): \(\alpha\approx0.9994999\).
+- Exterior de agujero negro, reloj suspendido en \(r=1.1r_s\): \(\alpha\approx0.3015113\).
+- Reloj todavía más próximo al horizonte, \(r=1.01r_s\): \(\alpha\approx0.0995037\).
+
+**Resultado:** a igual masa total, una región accesible mucho más próxima a \(r_s\) permite mayores diferencias de ritmo respecto al reloj lejano. **Contraejemplo necesario:** si ambos relojes están al **mismo radio exterior** \(r\) y la simetría esférica, masa y condiciones estacionarias son las mismas, \(\alpha(r)\) también es idéntico. No es la etiqueta «agujero negro» lo que añade dilatación por sí sola. Si se mide una supernova real, su evolución, radiación, movimiento Doppler y geometría dinámica requieren tratamiento adicional.
+
+**Distinción observacional:** la intuición de ritmo casi nulo desde fuera puede aplicarse a señales de regiones **muy próximas pero exteriores** al horizonte, o a la congelación óptica aparente de materia infallente. No constituye una medición de relojes **interiores** ni una prueba de «radiación del núcleo». El reloj que cae acumula tiempo propio sin congelarse al cruzar el horizonte en GR clásica. Esta distinción corrige la lectura anterior demasiado fuerte que había convertido «casi desde nuestra perspectiva» en «el tiempo local se detiene».
+
+**Puente ontológico aún abierto:** construir dos observadores físicos como historias de actualización \(\mathcal O_A,\mathcal O_B\) con relojes reproducibles y derivar una razón observable de sus ritmos, independientemente de la parametrización común \(u\). Si \(r_e\mapsto f(u)r_e\) reescala por igual todos los relojes, no queda una diferencia operacional observable. Para ser una nueva predicción, la propuesta debe derivar una razón medible \(\alpha_A/\alpha_B\) y relacionarla con la accesibilidad relacional, no simplemente renombrar el potencial gravitatorio.
