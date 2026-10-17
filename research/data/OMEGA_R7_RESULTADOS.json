@@ -1,0 +1,40 @@
+{
+  "status": "PASS: standard channel/instrument identities and operational counterexamples; NOT fundamental physical events derived",
+  "R7_equivalence": "Two candidate processes are equivalent only relative to all allowed inputs, interventions, outcomes, and environment records",
+  "unchanged_coarse_result_can_hide_distinct_intermediate_histories": {
+    "coarse_channel_choi_max_difference": 5.551115123125783e-17,
+    "p1_without_intervention": 0.15164664532641728,
+    "p1_with_intermediate_Z": 0.0,
+    "intervention_channel_max_difference": 1.8483533546735829
+  },
+  "same_average_channel_different_recorded_instruments": {
+    "coarse_choi_max_difference": 1.1102230246251565e-16,
+    "original_record_probs_on_zero": [
+      0.7999999999999999,
+      0.19999999999999998
+    ],
+    "rotated_record_probs_on_zero": [
+      0.8999999999999999,
+      0.09999999999999996
+    ],
+    "coarse_channel_same": true,
+    "recorded_instruments_different": true
+  },
+  "one_probe_insufficient_to_establish_equivalence": {
+    "at_z0_max_difference": 0.0,
+    "at_plus_max_difference": 0.3428978074554513,
+    "full_choi_max_difference": 0.6857956149109027
+  },
+  "global_phase_channel_invariant": true,
+  "identity_splitting_does_not_define_ticks": true,
+  "projective_dephasing_equals_random_z_without_record": true,
+  "unresolved": [
+    "Allowed operational contexts must be specified, not determined by Gamma_x",
+    "A completely positive channel is an imported quantum-information primitive",
+    "Equality of endpoint channels does not imply equality of histories or ontological microevents",
+    "Different Kraus decompositions of one channel can correspond to distinguishable instrument outcomes when an actual measurement apparatus records them",
+    "Instrument semantics cannot be read off from Kraus labels alone",
+    "Non-unique event granularity prevents using operation counts as universal clock",
+    "No quantum-to-GR bridge, physical time, c, hbar, microscopic clock frequency, or unique Omega measure derived"
+  ]
+}
