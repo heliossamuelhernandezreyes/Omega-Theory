@@ -1,0 +1,112 @@
+{
+  "status": "PASS: finite-dimensional quantum toy identities, NOT physical Omega derivation",
+  "theorem": {
+    "proof": "Nonnegative additive endpoint-only duration must vanish on all reversible channels.",
+    "examples": [
+      {
+        "phi": 0.2,
+        "max_identity_matrix_error": 6.478927599748095e-18
+      },
+      {
+        "phi": 0.8,
+        "max_identity_matrix_error": 2.1285471334023225e-17
+      },
+      {
+        "phi": 1.4,
+        "max_identity_matrix_error": 2.0849856140276212e-17
+      }
+    ]
+  },
+  "setup": {
+    "clock_register_readings_assumed": 7,
+    "refinement_factor": 4,
+    "coarse_clock_register_dimension": 7,
+    "fine_clock_register_dimension": 25,
+    "rotations_per_coarse_step": {
+      "A_radians": 0.2,
+      "B_radians": 0.35
+    },
+    "initial_A_and_B": "|0> ⊗ |0>"
+  },
+  "refinement_max_coarse_state_difference": 1.887379141862766e-15,
+  "history_constraint_residual_norm": 1.6184142622847344e-16,
+  "relative_phase_frequency_ratio_derived_from_assumed_angles": 0.5714285714285715,
+  "conditional_clock_observables": [
+    {
+      "reference_clock_label": 0,
+      "P_A_one_given_reference": 0.0,
+      "P_B_one_given_reference": 0.0,
+      "phase_A_from_XZ": 0.0,
+      "phase_B_from_XZ": 0.0,
+      "relative_phase_A_over_B": null
+    },
+    {
+      "reference_clock_label": 1,
+      "P_A_one_given_reference": 0.009966711079379183,
+      "P_B_one_given_reference": 0.030313643576310542,
+      "phase_A_from_XZ": 0.2,
+      "phase_B_from_XZ": 0.35000000000000003,
+      "relative_phase_A_over_B": 0.5714285714285714
+    },
+    {
+      "reference_clock_label": 2,
+      "P_A_one_given_reference": 0.039469502998557456,
+      "P_B_one_given_reference": 0.11757890635775578,
+      "phase_A_from_XZ": 0.4,
+      "phase_B_from_XZ": 0.7,
+      "relative_phase_A_over_B": 0.5714285714285715
+    },
+    {
+      "reference_clock_label": 3,
+      "P_A_one_given_reference": 0.08733219254516084,
+      "P_B_one_given_reference": 0.2512144760541365,
+      "phase_A_from_XZ": 0.6,
+      "phase_B_from_XZ": 1.05,
+      "relative_phase_A_over_B": 0.5714285714285714
+    },
+    {
+      "reference_clock_label": 4,
+      "P_A_one_given_reference": 0.15164664532641725,
+      "P_B_one_given_reference": 0.41501642854987947,
+      "phase_A_from_XZ": 0.7999999999999999,
+      "phase_B_from_XZ": 1.4,
+      "relative_phase_A_over_B": 0.5714285714285714
+    },
+    {
+      "reference_clock_label": 5,
+      "P_A_one_given_reference": 0.22984884706593006,
+      "P_B_one_given_reference": 0.5891230278247459,
+      "phase_A_from_XZ": 1.0,
+      "phase_B_from_XZ": 1.75,
+      "relative_phase_A_over_B": 0.5714285714285714
+    },
+    {
+      "reference_clock_label": 6,
+      "P_A_one_given_reference": 0.31882112276166313,
+      "P_B_one_given_reference": 0.7524230522999286,
+      "phase_A_from_XZ": 1.2,
+      "phase_B_from_XZ": 2.1,
+      "relative_phase_A_over_B": 0.5714285714285714
+    }
+  ],
+  "probe_insertion": {
+    "uninterrupted_P_one": 0.1516466453264173,
+    "Z_intervention_P_one": 1.5148512270800125e-34,
+    "same_experiment": false
+  },
+  "inverse_loop": {
+    "endpoint_angle": 0.0,
+    "measured_two_leg_path_angle": 0.7999999999999999,
+    "middle_P_one": 0.1516466453264173,
+    "end_P_one": 0.0
+  },
+  "limitations": [
+    "The label j is a user-chosen quantum clock register, not derived time.",
+    "Rotation angles and Born probabilities are imported from standard quantum mechanics.",
+    "Equality on selected coarse clock readings does not imply the entire fine history is operationally equivalent.",
+    "An unobserved inverse loop can have zero endpoint distance but nonzero probed history.",
+    "The nonnegative additive endpoint-only duration no-go covers reversible unitary dynamics, not relational durations depending on clock/environment.",
+    "Phase ratios are conditional on the input angles and phase reference; angles can wrap, clocks need calibration.",
+    "No Lorentz invariance, gravitation, metric time, omega fundamental law, mass, speed c or Planck scale derived."
+  ]
+}
