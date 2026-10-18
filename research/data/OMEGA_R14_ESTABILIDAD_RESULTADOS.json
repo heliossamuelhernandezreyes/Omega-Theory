@@ -1,0 +1,217 @@
+{
+  "title": "Omega R14 – conditional common-identity stability, not physical derivation",
+  "core_result": "Closedness yields certain uninterrupted preservation of coarse identity; any fixed positive exit probability gives eventual exit with probability one in repeated opportunities; q conservation does not determine exit or formation dynamics.",
+  "state_conservation": {
+    "F": 2.0,
+    "B0": 2.0,
+    "B1": 2.0
+  },
+  "support_nonunique_when_all_positive": true,
+  "parameter_sets_same_support": [
+    {
+      "formation": 0.2,
+      "escape": 0.001
+    },
+    {
+      "formation": 0.2,
+      "escape": 0.1
+    }
+  ],
+  "closed_B_when_escape_zero": true,
+  "closed_B_when_escape_positive": false,
+  "mean_intact_opportunities": {
+    "slow_escape": 1000.0,
+    "fast_escape": 10.0
+  },
+  "stationary_bound": {
+    "slow_escape": 0.9950248756218906,
+    "fast_escape": 0.6666666666666666
+  },
+  "refinement_escape": {
+    "coarse": 0.1,
+    "half_step": 0.05131670194948623,
+    "two_halves_survival": 0.8999999999999999
+  },
+  "photon_kinematics": [
+    {
+      "each_photon_MeV": 0.6,
+      "relative_angle_deg": 0,
+      "system_invariant_MeV": 0.0,
+      "electron_positron_kinematically_allowed": false,
+      "material_formation_observed_or_guaranteed": false
+    },
+    {
+      "each_photon_MeV": 0.6,
+      "relative_angle_deg": 90,
+      "system_invariant_MeV": 0.8485281374238569,
+      "electron_positron_kinematically_allowed": false,
+      "material_formation_observed_or_guaranteed": false
+    },
+    {
+      "each_photon_MeV": 0.6,
+      "relative_angle_deg": 180,
+      "system_invariant_MeV": 1.2,
+      "electron_positron_kinematically_allowed": true,
+      "material_formation_observed_or_guaranteed": false
+    }
+  ],
+  "evolution": [
+    {
+      "model": "absorbing_identity",
+      "formation": 0.2,
+      "escape": 0.0,
+      "steps": 0,
+      "intact_survival": 1.0,
+      "bound_fraction": 1.0,
+      "expected_q1": 1.8,
+      "conserved_total": 2.0
+    },
+    {
+      "model": "absorbing_identity",
+      "formation": 0.2,
+      "escape": 0.0,
+      "steps": 1,
+      "intact_survival": 1.0,
+      "bound_fraction": 1.0,
+      "expected_q1": 1.0,
+      "conserved_total": 2.0
+    },
+    {
+      "model": "absorbing_identity",
+      "formation": 0.2,
+      "escape": 0.0,
+      "steps": 10,
+      "intact_survival": 1.0,
+      "bound_fraction": 1.0,
+      "expected_q1": 1.0,
+      "conserved_total": 2.0
+    },
+    {
+      "model": "absorbing_identity",
+      "formation": 0.2,
+      "escape": 0.0,
+      "steps": 100,
+      "intact_survival": 1.0,
+      "bound_fraction": 1.0,
+      "expected_q1": 1.0,
+      "conserved_total": 2.0
+    },
+    {
+      "model": "absorbing_identity",
+      "formation": 0.2,
+      "escape": 0.0,
+      "steps": 1000,
+      "intact_survival": 1.0,
+      "bound_fraction": 1.0,
+      "expected_q1": 1.0,
+      "conserved_total": 2.0
+    },
+    {
+      "model": "slow_escape",
+      "formation": 0.2,
+      "escape": 0.001,
+      "steps": 0,
+      "intact_survival": 1.0,
+      "bound_fraction": 1.0,
+      "expected_q1": 1.8,
+      "conserved_total": 2.0
+    },
+    {
+      "model": "slow_escape",
+      "formation": 0.2,
+      "escape": 0.001,
+      "steps": 1,
+      "intact_survival": 0.999,
+      "bound_fraction": 0.999,
+      "expected_q1": 1.0,
+      "conserved_total": 2.0
+    },
+    {
+      "model": "slow_escape",
+      "formation": 0.2,
+      "escape": 0.001,
+      "steps": 10,
+      "intact_survival": 0.9900448802097482,
+      "bound_fraction": 0.9955524354714247,
+      "expected_q1": 1.0000000000000002,
+      "conserved_total": 2.0000000000000004
+    },
+    {
+      "model": "slow_escape",
+      "formation": 0.2,
+      "escape": 0.001,
+      "steps": 100,
+      "intact_survival": 0.9047921471137089,
+      "bound_fraction": 0.9950248756227849,
+      "expected_q1": 1.0,
+      "conserved_total": 2.0
+    },
+    {
+      "model": "slow_escape",
+      "formation": 0.2,
+      "escape": 0.001,
+      "steps": 1000,
+      "intact_survival": 0.36769542477096373,
+      "bound_fraction": 0.9950248756218915,
+      "expected_q1": 1.0000000000000009,
+      "conserved_total": 2.0000000000000018
+    },
+    {
+      "model": "fast_escape",
+      "formation": 0.2,
+      "escape": 0.1,
+      "steps": 0,
+      "intact_survival": 1.0,
+      "bound_fraction": 1.0,
+      "expected_q1": 1.8,
+      "conserved_total": 2.0
+    },
+    {
+      "model": "fast_escape",
+      "formation": 0.2,
+      "escape": 0.1,
+      "steps": 1,
+      "intact_survival": 0.9,
+      "bound_fraction": 0.9,
+      "expected_q1": 1.0,
+      "conserved_total": 2.0
+    },
+    {
+      "model": "fast_escape",
+      "formation": 0.2,
+      "escape": 0.1,
+      "steps": 10,
+      "intact_survival": 0.3486784401000001,
+      "bound_fraction": 0.6760825083000004,
+      "expected_q1": 1.0000000000000007,
+      "conserved_total": 2.0000000000000013
+    },
+    {
+      "model": "fast_escape",
+      "formation": 0.2,
+      "escape": 0.1,
+      "steps": 100,
+      "intact_survival": 2.6561398887587544e-05,
+      "bound_fraction": 0.6666666666666694,
+      "expected_q1": 1.000000000000004,
+      "conserved_total": 2.000000000000008
+    },
+    {
+      "model": "fast_escape",
+      "formation": 0.2,
+      "escape": 0.1,
+      "steps": 1000,
+      "intact_survival": 1.7478712517226947e-46,
+      "bound_fraction": 0.6666666666666694,
+      "expected_q1": 1.000000000000004,
+      "conserved_total": 2.000000000000008
+    }
+  ],
+  "caveats": [
+    "No identification of q with energy, mass, or true Omega potentiality; conservation of q is an extra hypothesis.",
+    "The Markov probabilities are independently supplied. Identity class is a coarse-grained definition.",
+    "n is an index of opportunities, not seconds, physical proper time, or measured lifetime.",
+    "The kinematic Breit-Wheeler threshold is imported from special relativity/QED, not derived from Omega.",
+    "A kinematically permitted photon reaction is not certain to happen and produced e+e- need not remain bound."
+  ]
+}
