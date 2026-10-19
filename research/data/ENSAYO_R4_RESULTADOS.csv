@@ -1,0 +1,17 @@
+model,parameter,observable,value
+time_dilation,0.0,d_tau_per_d_t,1.0
+time_dilation,0.6,d_tau_per_d_t,0.8
+time_dilation,0.9,d_tau_per_d_t,0.4358898943540673
+time_dilation,0.99,d_tau_per_d_t,0.1410673597966589
+time_dilation,1.0,d_tau_per_d_t,0.0
+lattice_dispersion,0.1,vg_over_c,0.9987502603949663
+lattice_dispersion,0.1,relative_dispersion_sq_error,-0.0008330556051533433
+lattice_dispersion,1.0,vg_over_c,0.8775825618903728
+lattice_dispersion,1.0,relative_dispersion_sq_error,-0.08060461173627942
+lattice_dispersion,2.0,vg_over_c,0.5403023058681398
+lattice_dispersion,2.0,relative_dispersion_sq_error,-0.2919265817264288
+Mandelstam_Tamm,1.0,minimum_orthogonal_time_s,1.0339169241510009e-15
+Mandelstam_Tamm,1000.0,minimum_orthogonal_time_s,1.033916924151001e-18
+Mandelstam_Tamm,1000000.0,minimum_orthogonal_time_s,1.0339169241510009e-21
+four_serial_paths,4,completion_rate_relative,0.25
+four_parallel_paths,4,first_event_rate_relative,4.0

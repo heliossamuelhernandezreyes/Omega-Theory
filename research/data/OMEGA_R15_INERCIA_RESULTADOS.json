@@ -1,0 +1,155 @@
+{
+  "study": "Omega R15 — compatibility, binding, mobility and effective mass",
+  "status": "EXPLORATORY / NO CANON / NOT PHYSICAL VALIDATION",
+  "classical": [
+    {
+      "k": 0.2,
+      "r": 1.0,
+      "D_free": 0.5,
+      "D_pair": 0.08333333333333334,
+      "mobility_ratio": 0.16666666666666669,
+      "bias_susceptibility": 0.08333333333263888
+    },
+    {
+      "k": 1.0,
+      "r": 1.0,
+      "D_free": 0.5,
+      "D_pair": 0.25,
+      "mobility_ratio": 0.5,
+      "bias_susceptibility": 0.24999999999791664
+    },
+    {
+      "k": 5.0,
+      "r": 1.0,
+      "D_free": 0.5,
+      "D_pair": 0.4166666666666667,
+      "mobility_ratio": 0.8333333333333334,
+      "bias_susceptibility": 0.4166666666631944
+    },
+    {
+      "k": 50.0,
+      "r": 1.0,
+      "D_free": 0.5,
+      "D_pair": 0.49019607843137253,
+      "mobility_ratio": 0.9803921568627451,
+      "bias_susceptibility": 0.4901960784272875
+    }
+  ],
+  "q_distribution_by_gate": {
+    "0": [
+      1.8,
+      0.2
+    ],
+    "1": [
+      0.2,
+      1.8
+    ]
+  },
+  "quantum_imported": [
+    {
+      "U": 0.5,
+      "J": 1.0,
+      "K": 0.0,
+      "bound_energy": -4.031128874149275,
+      "gap": 0.031128874149274566,
+      "prob_same_site": 0.12403473458920847,
+      "effective_mass_hbar_a_1": 1.0077822185373186,
+      "mass_ratio_to_two_free": 1.0077822185373186,
+      "tridiagonal_eigenvalue_L100": -4.031128874147843,
+      "finite_diff_curvature": 0.9922778545501387
+    },
+    {
+      "U": 1.0,
+      "J": 1.0,
+      "K": 0.0,
+      "bound_energy": -4.123105625617661,
+      "gap": 0.12310562561766059,
+      "prob_same_site": 0.24253562503633297,
+      "effective_mass_hbar_a_1": 1.0307764064044151,
+      "mass_ratio_to_two_free": 1.0307764064044151,
+      "tridiagonal_eigenvalue_L100": -4.12310562561766,
+      "finite_diff_curvature": 0.9701424765751199
+    },
+    {
+      "U": 2.0,
+      "J": 1.0,
+      "K": 0.0,
+      "bound_energy": -4.47213595499958,
+      "gap": 0.4721359549995796,
+      "prob_same_site": 0.4472135954999579,
+      "effective_mass_hbar_a_1": 1.118033988749895,
+      "mass_ratio_to_two_free": 1.118033988749895,
+      "tridiagonal_eigenvalue_L100": -4.47213595499958,
+      "finite_diff_curvature": 0.8944271616684318
+    },
+    {
+      "U": 4.0,
+      "J": 1.0,
+      "K": 0.0,
+      "bound_energy": -5.656854249492381,
+      "gap": 1.6568542494923806,
+      "prob_same_site": 0.7071067811865475,
+      "effective_mass_hbar_a_1": 1.4142135623730951,
+      "mass_ratio_to_two_free": 1.4142135623730951,
+      "tridiagonal_eigenvalue_L100": -5.65685424949238,
+      "finite_diff_curvature": 0.7071067447128598
+    },
+    {
+      "U": 8.0,
+      "J": 1.0,
+      "K": 0.0,
+      "bound_energy": -8.94427190999916,
+      "gap": 4.944271909999159,
+      "prob_same_site": 0.8944271909999159,
+      "effective_mass_hbar_a_1": 2.23606797749979,
+      "mass_ratio_to_two_free": 2.23606797749979,
+      "tridiagonal_eigenvalue_L100": -8.94427190999916,
+      "finite_diff_curvature": 0.4472135657351828
+    },
+    {
+      "U": 12.0,
+      "J": 1.0,
+      "K": 0.0,
+      "bound_energy": -12.649110640673518,
+      "gap": 8.649110640673518,
+      "prob_same_site": 0.9486832980505138,
+      "effective_mass_hbar_a_1": 3.1622776601683795,
+      "mass_ratio_to_two_free": 3.1622776601683795,
+      "tridiagonal_eigenvalue_L100": -12.649110640673516,
+      "finite_diff_curvature": 0.3162277444346273
+    }
+  ],
+  "same_dimensionless_binding_different_mass": [
+    {
+      "J": 0.5,
+      "U": 2.0,
+      "prob_same_site": 0.7071067811865475,
+      "effective_mass_hbar_a_1": 2.8284271247461903,
+      "gap": 0.8284271247461903
+    },
+    {
+      "J": 1.0,
+      "U": 4.0,
+      "prob_same_site": 0.7071067811865475,
+      "effective_mass_hbar_a_1": 1.4142135623730951,
+      "gap": 1.6568542494923806
+    },
+    {
+      "J": 2.0,
+      "U": 8.0,
+      "prob_same_site": 0.7071067811865475,
+      "effective_mass_hbar_a_1": 0.7071067811865476,
+      "gap": 3.313708498984761
+    }
+  ],
+  "limits": [
+    "A compatibility graph plus conservation does not select transition rates.",
+    "Classical mobility (D or drift) is not inertial mass or Newtonian acceleration.",
+    "The lattice quantum model imports Hilbert dynamics, J, U, a and hbar.",
+    "The index U/J is NOT ontological asfixia A.",
+    "A two-body closed scattering state cannot release binding energy into nowhere; capture needs another channel or preparation.",
+    "Neither photon-to-matter creation nor gravity is derived; light itself can gravitate.",
+    "An external evolution clock is used by both toy models; time is not emergent.",
+    "Quantum norm conservation is not conservation of a physical potentiality fluid."
+  ]
+}

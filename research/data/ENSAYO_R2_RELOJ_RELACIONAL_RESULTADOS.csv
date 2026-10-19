@@ -1,0 +1,4 @@
+scenario,ratio_theoretical,ratio_monte_carlo,reference_B_ticks,notes
+baseline,0.960000000000,,0,analytical_only
+common_obstruction_u1,0.960000000000,0.958500000000,30000,global_mode_cancels
+relative_obstruction_u1,0.762214179557,0.758600000000,30000,illustrative_edge_selectivity

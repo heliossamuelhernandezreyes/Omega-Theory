@@ -1,0 +1,86 @@
+{
+  "status": "PASS: source-code audit and conditional gauge coupling checks; NOT Omega evidence",
+  "provenance": {
+    "cdm_repo_source_sha1": "2dab60e5328694b3cb4f45afc72eaa7b78892d5a",
+    "cdm_version": "Omega_solver.py README v1.1",
+    "theory_reference": "canon/mathematics/MAPA_FORMALISMO.md"
+  },
+  "at_z1": {
+    "z": 1.0,
+    "G_eff": 0.9999978944270309,
+    "Omega_prime_function": 0.0041042499311949405,
+    "f_sigma8_source_implementation": 0.33375851377282123,
+    "f_sigma8_source_LCDM_proxy": 0.42525703429731787,
+    "source_implementation_vs_own_proxy_percent": -21.516051033861462,
+    "f_sigma8_consistently_normalized": 0.4255376568953579,
+    "f_sigma8_independent_LCDM_baseline": 0.42554098532591755,
+    "corrected_relative_growth_percent": -0.0007821645092831453
+  },
+  "at_z0": {
+    "f_source": 0.40970506001760815,
+    "f_correct": 0.5223684911802309,
+    "f_sigma8_correct": 0.41789479294418475,
+    "delta_growth_unscaled_today": 0.7843219239581759,
+    "gamma_source": 0.7618943905905713,
+    "gamma_correct": 0.5544667473826795,
+    "G_eff": 0.9999999858125236
+  },
+  "gauge": {
+    "links": [
+      0.15,
+      -0.4,
+      0.09,
+      0.5
+    ],
+    "vertex_phases": [
+      0.1,
+      -0.3,
+      0.4,
+      -0.17
+    ],
+    "energy_original": 0.9537120473205088,
+    "energy_after_gauge_relabeling": 0.953712047320509,
+    "difference": 1.1102230246251565e-16
+  },
+  "toy_photon_scalar_profiles": [
+    {
+      "xi": 0.0,
+      "z0_alpha_over_alpha0": 1.0,
+      "z1_alpha_over_alpha0": 1.0,
+      "z1_fractional_shift": 0.0,
+      "G_eff_z1_unchanged": 0.9999978944270309
+    },
+    {
+      "xi": 1e-05,
+      "z0_alpha_over_alpha0": 1.0,
+      "z1_alpha_over_alpha0": 0.9999999623264749,
+      "z1_fractional_shift": -3.7673525077330794e-08,
+      "G_eff_z1_unchanged": 0.9999978944270309
+    },
+    {
+      "xi": 0.001,
+      "z0_alpha_over_alpha0": 1.0,
+      "z1_alpha_over_alpha0": 0.9999962326545152,
+      "z1_fractional_shift": -3.7673454847952925e-06,
+      "G_eff_z1_unchanged": 0.9999978944270309
+    },
+    {
+      "xi": 0.01,
+      "z0_alpha_over_alpha0": 1.0,
+      "z1_alpha_over_alpha0": 0.9999623271838259,
+      "z1_fractional_shift": -3.7672816174061374e-05,
+      "G_eff_z1_unchanged": 0.9999978944270309
+    }
+  ],
+  "necessary_distinctions": [
+    "Omega-CDM v1.1 does not evolve a scalar field from an action: Omega_prime(a) is imposed.",
+    "Omega-CDM labels a beta term disformal; this numerical ODE alone does not derive a disformal field theory.",
+    "An arbitrary photon coupling xi is NOT derived from the CDM growth sector or Omega gauge symmetry.",
+    "The chosen B_photon uses Omega_prime as a PROXY, not a solved phi or its dynamical derivative.",
+    "Variation of alpha is a conditional model prediction, NOT observationally supported.",
+    "A neutral gravitating dark sector is logically possible, but density/background/perturbations are not derived.",
+    "The source growth comparison mixes normalized delta with unnormalized derivative and does not independently integrate LCDM.",
+    "The solver assumes LCDM background H(a) and Omega_m0, so no dark-energy equation of state was derived.",
+    "Gamma_x and r_e/s_e do not yet select alpha, xi, beta, a photon speed, mass spectrum, or dark matter abundance."
+  ]
+}

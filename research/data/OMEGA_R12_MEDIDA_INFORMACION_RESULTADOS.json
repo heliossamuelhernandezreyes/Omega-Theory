@@ -1,0 +1,84 @@
+{
+  "status": "PASS: algebraic counterexamples; not Omega empirical validation",
+  "assumptions_imported": [
+    "probability and normalization",
+    "Shannon chain rule",
+    "finite complex Hilbert space",
+    "unitarity",
+    "Born probability",
+    "bipartite registers"
+  ],
+  "models": [
+    {
+      "p": 0.2,
+      "allowed_outcomes": [
+        "0",
+        "1"
+      ],
+      "P_1": 0.2,
+      "joint_1_1_with_independent_q03": 0.06,
+      "unitarity_residual": 1.1102230246251565e-16,
+      "reduced_entropy_bits": 0.7219280948873623,
+      "global_von_neumann_entropy_bits": 0.0,
+      "data_processing_information_bits": 0.3577507789033366
+    },
+    {
+      "p": 0.5,
+      "allowed_outcomes": [
+        "0",
+        "1"
+      ],
+      "P_1": 0.5,
+      "joint_1_1_with_independent_q03": 0.15,
+      "unitarity_residual": 2.220446049250313e-16,
+      "reduced_entropy_bits": 1.0,
+      "global_von_neumann_entropy_bits": 0.0,
+      "data_processing_information_bits": 0.5310044064107188
+    },
+    {
+      "p": 0.8,
+      "allowed_outcomes": [
+        "0",
+        "1"
+      ],
+      "P_1": 0.8,
+      "joint_1_1_with_independent_q03": 0.24,
+      "unitarity_residual": 1.1102230246251565e-16,
+      "reduced_entropy_bits": 0.7219280948873623,
+      "global_von_neumann_entropy_bits": 0.0,
+      "data_processing_information_bits": 0.3577507789033364
+    }
+  ],
+  "correlations": [
+    {
+      "P_equal": 0.2,
+      "I_XY_bits": 0.2780719051126377
+    },
+    {
+      "P_equal": 0.5,
+      "I_XY_bits": 0.0
+    },
+    {
+      "P_equal": 0.8,
+      "I_XY_bits": 0.2780719051126377
+    }
+  ],
+  "coarse_grain_example": {
+    "physical_P_B": 0.5,
+    "fine_P_B1": 0.185,
+    "fine_P_B2": 0.315,
+    "naive_uniform_three_labels_P_B": 0.6666666666666666
+  },
+  "physical_exchange_symmetric_case": 0.5,
+  "negative_results": [
+    "Positivity, causal support and normalized product composition admit every p in (0,1).",
+    "Shannon additivity (chain rule) and data processing hold for all p: they do not select p.",
+    "Unitary GLOBAL information preservation permits distinct Born probabilities p.",
+    "Identical symmetric marginals do not fix physical correlations (s is free).",
+    "Equal information content I(X;Y) need not fix sign of correlation.",
+    "Fine-grained uniform counting of labels is not invariant under regrouping.",
+    "Max entropy p=1/2 follows only after adding a maximum-entropy selection rule and a specified symmetry/prior.",
+    "Quantum examples import a Hilbert space and Born rule; no derivation of either from Omega.",
+    "No physical unit of duration, Lorentz cone, mass, energy or quantum gravity is derived."
+  ]
+}

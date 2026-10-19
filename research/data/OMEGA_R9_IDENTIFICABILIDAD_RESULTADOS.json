@@ -1,0 +1,52 @@
+{
+  "status": "PASS: synthetic identifiability diagnostics; NO derivation of physical clocks or Omega",
+  "reference": "R8 relational clock, R7 operational equivalence",
+  "permitted_axioms": [
+    "same local causal graph",
+    "composition",
+    "unitarity",
+    "phase-continuity",
+    "coarse observation relabeling"
+  ],
+  "nonidentifiability_witnesses": [
+    {
+      "label": "I",
+      "graph": "same two independent local clocks",
+      "theoretical_ratio": 0.5945945945945946,
+      "reconstructed_ratio": 0.5945945945945948,
+      "probability_A_at_j8": 0.5940384194464401,
+      "probability_B_at_j8": 0.9917786565170031
+    },
+    {
+      "label": "II",
+      "graph": "same two independent local clocks",
+      "theoretical_ratio": 1.2432432432432432,
+      "reconstructed_ratio": 1.2432432432432436,
+      "probability_A_at_j8": 0.9292632168710507,
+      "probability_B_at_j8": 0.9917786565170031
+    }
+  ],
+  "inter_model_observable_distinguishability_TV_at_j8": 0.33522479742461064,
+  "conditional_exchange_symmetry_forces_ratio_one": 1.0,
+  "refinement": {
+    "refined_readings": 25,
+    "coarse_readings": 9,
+    "max_original_sample_error": 5.551115123125783e-16,
+    "coarse_A_over_B": 0.594594594594595
+  },
+  "aliases": {
+    "two_pi_shift_max_observation_error": 3.885780586188048e-15,
+    "Z_only_sign_flip_error": 0.0
+  },
+  "coordinate_rescaling_endpoint_error": 0.0,
+  "remaining_undetermined": [
+    "relative clock ratio from Gamma_x alone",
+    "physical seconds per step",
+    "integer 2pi winding numbers",
+    "physical Hamiltonian",
+    "Lorentz invariant space-time",
+    "metric proper time",
+    "gravitational universality"
+  ],
+  "epistemic_limit": "Inference of phase from X/Z observations is not prediction of phase from ontology."
+}

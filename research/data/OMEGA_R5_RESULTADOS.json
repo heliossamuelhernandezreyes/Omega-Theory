@@ -1,0 +1,61 @@
+{
+  "status": "CONDITIONAL toy calculation, not physical validation of Omega",
+  "origin": "U=shift*coin(theta)",
+  "strict_cone": "no amplitudes outside |x-x0|<=n",
+  "parameters": [
+    {
+      "theta": 0,
+      "maximum_group_speed": 1,
+      "k0_eigenphase_gap": 0,
+      "k0_spin_oscillation_period_steps": null,
+      "strict_cone_leakage_after_25_steps": 0
+    },
+    {
+      "theta": 0.15,
+      "maximum_group_speed": 0.9887710779360422,
+      "k0_eigenphase_gap": 0.1500000000000003,
+      "k0_spin_oscillation_period_steps": 20.943951023931955,
+      "strict_cone_leakage_after_25_steps": 0
+    },
+    {
+      "theta": 0.3,
+      "maximum_group_speed": 0.955336489125606,
+      "k0_eigenphase_gap": 0.30000000000000016,
+      "k0_spin_oscillation_period_steps": 10.471975511965978,
+      "strict_cone_leakage_after_25_steps": 0
+    },
+    {
+      "theta": 0.6,
+      "maximum_group_speed": 0.8253356149096783,
+      "k0_eigenphase_gap": 0.6,
+      "k0_spin_oscillation_period_steps": 5.235987755982989,
+      "strict_cone_leakage_after_25_steps": 0
+    }
+  ],
+  "continuum": [
+    {
+      "epsilon": 0.5,
+      "omega_over_epsilon": 0.8021194527970953,
+      "relative_error": -0.0050932656347115746
+    },
+    {
+      "epsilon": 0.2,
+      "omega_over_epsilon": 0.8055761004433494,
+      "relative_error": -0.0008058219009962064
+    },
+    {
+      "epsilon": 0.1,
+      "omega_over_epsilon": 0.8060636162265225,
+      "relative_error": -0.00020113299325696943
+    },
+    {
+      "epsilon": 0.05,
+      "omega_over_epsilon": 0.8061852514085288,
+      "relative_error": -0.00005026311808831174
+    }
+  ],
+  "finite_lattice_k1_theta05": 1.0767867445664643,
+  "continuum_surrogate_k1_m05": 1.118033988749895,
+  "local_pytest": "8 passed",
+  "CI": "separate repository-integrity check"
+}

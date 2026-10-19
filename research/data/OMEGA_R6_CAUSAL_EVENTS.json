@@ -1,0 +1,126 @@
+{
+  "status": "PASS: CONDITIONAL causal circuit; no physical emergence of time or Omega confirmation",
+  "model": "Finite 7-qubit DAG with local RY, X and CNOT events; same local order, variable incomparable event schedules",
+  "qubits": 7,
+  "events": 16,
+  "independent_schedules_tested": 130,
+  "dependency_edges": 14,
+  "maximum_state_difference_over_schedules": 2.220446049250313e-16,
+  "representative_linear_extensions": {
+    "A_first": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "J",
+      "P0",
+      "L01",
+      "L12",
+      "L23",
+      "L34"
+    ],
+    "B_first": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "J",
+      "P0",
+      "L01",
+      "L12",
+      "L23",
+      "L34"
+    ]
+  },
+  "arbitrary_schedule_prefix_8": {
+    "A_first": {
+      "A": 4,
+      "B": 4,
+      "propagation": 0
+    },
+    "B_first": {
+      "A": 2,
+      "B": 6,
+      "propagation": 0
+    }
+  },
+  "internal_clock_markers": {
+    "clock_A_rotation_per_event": 0.35,
+    "clock_B_rotation_per_event": 0.22,
+    "clock_A_events": 4,
+    "clock_B_events": 6,
+    "A_p_excited_at_join": 0.4150164285498794,
+    "B_p_excited_before_join": 0.3759122741738133,
+    "B_p_excited_after_join": 0.4789091637723344
+  },
+  "causal_front_tests": [
+    {
+      "bridge_events": 0,
+      "sites_affected": 1,
+      "signal_outside_local_causal_front": 0.0,
+      "receiver_q4_change": 0.0
+    },
+    {
+      "bridge_events": 1,
+      "sites_affected": 2,
+      "signal_outside_local_causal_front": 0.0,
+      "receiver_q4_change": 0.0
+    },
+    {
+      "bridge_events": 2,
+      "sites_affected": 3,
+      "signal_outside_local_causal_front": 0.0,
+      "receiver_q4_change": 0.0
+    },
+    {
+      "bridge_events": 3,
+      "sites_affected": 4,
+      "signal_outside_local_causal_front": 0.0,
+      "receiver_q4_change": 0.0
+    },
+    {
+      "bridge_events": 4,
+      "sites_affected": 5,
+      "signal_outside_local_causal_front": 0.0,
+      "receiver_q4_change": 1.0
+    }
+  ],
+  "unordered_overlap_counterexample": {
+    "same_support_unordered": true,
+    "max_statevector_difference": 1.414213562373095,
+    "overlap_magnitude": 0.0,
+    "distinguishable_X_expectation": 1.0
+  },
+  "refinement_event_count_ambiguity": {
+    "max_statevector_difference": 5.551115123125783e-17,
+    "event_counts_for_same_operational_rotation": [
+      1,
+      2
+    ],
+    "p_one": 0.1516466453264173,
+    "p_two": 0.15164664532641728
+  },
+  "negative_results": [
+    "The DAG is a SPECIFIED quantum circuit, not derived from bare Gamma_x or Omega ontology",
+    "No global PHYSICAL step was used, but the evaluator selects an arbitrary topological order",
+    "A logical causal partial order is assumed; it is NOT physical proper time or a Lorentz-invariant metric",
+    "An event prefix of length eight is NOT an invariant equal-time slice; A/B counts differ across schedules",
+    "Unordered overlapping noncommuting gates make predictions ambiguous unless an extra causal edge or rule exists",
+    "The angles .35 and .22, number of events and event identity are arbitrary input: no fundamental relative clock rate derived",
+    "Refining one rotation into two leaves final state the same but doubles the event count: no physical clock from bare counting",
+    "The finite, labeled line graph assumes spatial locality; a cone counted in links cannot set measured c",
+    "No gravity, antimatter dynamics, QFT, Lorentz invariance or ħ derived"
+  ]
+}
