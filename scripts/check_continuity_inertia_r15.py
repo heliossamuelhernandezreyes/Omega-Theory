@@ -209,7 +209,7 @@ def main() -> None:
                            ("OMEGA_R15_IDENTIFICABILIDAD.csv","same_dimensionless_binding_different_mass")):
         with (out/filename).open("w",newline="",encoding="utf-8") as f:
             rows=res[key]
-            writer=csv.DictWriter(f,fieldnames=list(rows[0]))
+            writer=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator="\n")
             writer.writeheader();writer.writerows(rows)
     print(json.dumps({"classical_rows":len(res["classical"]),
                       "quantum_rows":len(res["quantum_imported"]),
