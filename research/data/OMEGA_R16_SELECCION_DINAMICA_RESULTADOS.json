@@ -1,0 +1,121 @@
+{
+  "study": "Omega R16 - does shared identity select inertial dynamics?",
+  "status": "EXPLORATORY, NO-GO (conditional), NOT CANON; NO derivation of fundamental inertia",
+  "hypotheses_imported": [
+    "Hilbert space of bound-center positions",
+    "unitary Schrodinger time evolution",
+    "real nearest-neighbor translation-invariant Hamiltonian J",
+    "lattice metric a",
+    "external fixed clock omega",
+    "hbar and time coordinates",
+    "Born probability rule"
+  ],
+  "same_constraints_for_all_J": [
+    "same Γ nearest neighbor graph",
+    "same fixed bound identity sector B",
+    "same auxiliary conserved q=2",
+    "same fixed B--F energy gap Δ=4 per k (imported)",
+    "same translation and reflection symmetry",
+    "same positive and reversible unitary evolution",
+    "same reference clock omega"
+  ],
+  "counterexamples": [
+    {
+      "J": 0.25,
+      "clock_frequency": 1.0,
+      "binding_identity": "B",
+      "A_candidate": "same unspecified A",
+      "hbar": 1.0,
+      "lattice_spacing": 1.0,
+      "mass_band": 2.0,
+      "bandwidth_clock_ratio": 1.0,
+      "band_velocity_k_pi4": 0.35355339059327373,
+      "max_eigenvalue_error": 1.6653345369377348e-16,
+      "max_norm_error": 4.440892098500626e-16,
+      "band_curvature_numeric": 0.49999995832550326,
+      "fixed_binding_gap_by_k": 4.0,
+      "two_sector_spectrum_numeric_max_error": 1.7763568394002505e-15
+    },
+    {
+      "J": 0.5,
+      "clock_frequency": 1.0,
+      "binding_identity": "B",
+      "A_candidate": "same unspecified A",
+      "hbar": 1.0,
+      "lattice_spacing": 1.0,
+      "mass_band": 1.0,
+      "bandwidth_clock_ratio": 2.0,
+      "band_velocity_k_pi4": 0.7071067811865475,
+      "max_eigenvalue_error": 3.3306690738754696e-16,
+      "max_norm_error": 6.661338147750939e-16,
+      "band_curvature_numeric": 0.9999999166510065,
+      "fixed_binding_gap_by_k": 4.0,
+      "two_sector_spectrum_numeric_max_error": 1.7763568394002505e-15
+    },
+    {
+      "J": 1.0,
+      "clock_frequency": 1.0,
+      "binding_identity": "B",
+      "A_candidate": "same unspecified A",
+      "hbar": 1.0,
+      "lattice_spacing": 1.0,
+      "mass_band": 0.5,
+      "bandwidth_clock_ratio": 4.0,
+      "band_velocity_k_pi4": 1.414213562373095,
+      "max_eigenvalue_error": 6.661338147750939e-16,
+      "max_norm_error": 6.661338147750939e-16,
+      "band_curvature_numeric": 1.999999833302013,
+      "fixed_binding_gap_by_k": 4.0,
+      "two_sector_spectrum_numeric_max_error": 8.881784197001252e-16
+    },
+    {
+      "J": 2.0,
+      "clock_frequency": 1.0,
+      "binding_identity": "B",
+      "A_candidate": "same unspecified A",
+      "hbar": 1.0,
+      "lattice_spacing": 1.0,
+      "mass_band": 0.25,
+      "bandwidth_clock_ratio": 8.0,
+      "band_velocity_k_pi4": 2.82842712474619,
+      "max_eigenvalue_error": 1.3322676295501878e-15,
+      "max_norm_error": 8.881784197001252e-16,
+      "band_curvature_numeric": 3.999999666604026,
+      "fixed_binding_gap_by_k": 4.0,
+      "two_sector_spectrum_numeric_max_error": 1.3322676295501878e-15
+    },
+    {
+      "J": 4.0,
+      "clock_frequency": 1.0,
+      "binding_identity": "B",
+      "A_candidate": "same unspecified A",
+      "hbar": 1.0,
+      "lattice_spacing": 1.0,
+      "mass_band": 0.125,
+      "bandwidth_clock_ratio": 16.0,
+      "band_velocity_k_pi4": 5.65685424949238,
+      "max_eigenvalue_error": 2.6645352591003757e-15,
+      "max_norm_error": 2.1094237467877974e-15,
+      "band_curvature_numeric": 7.999999333208052,
+      "fixed_binding_gap_by_k": 4.0,
+      "two_sector_spectrum_numeric_max_error": 2.6645352591003757e-15
+    }
+  ],
+  "contrasting_classical_dynamics": {
+    "r": 1.0,
+    "q_total": 2.0,
+    "same_adjacency": true,
+    "classical_D": 1.0,
+    "no_ballistic_inertial_mass": "diffusion, not F=ma"
+  },
+  "no_go": "Identical identity and continuation support, with fixed clock, allow distinct bandwidth/clock ratios and effective masses. A selecting law is missing.",
+  "physical_claims_not_established": [
+    "No electron/proton rest mass derived",
+    "No mass-energy relation derived",
+    "No time or length metric derived",
+    "No relativistic causal speed derived",
+    "No universal gravitational coupling or lensing derived",
+    "No probability measure selected from Γ",
+    "No mapping from A to J or environmental source field derived"
+  ]
+}
